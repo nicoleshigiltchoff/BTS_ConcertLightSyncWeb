@@ -1,0 +1,14 @@
+{
+  "id": "example-purple-pulse",
+  "title": "Example Purple Pulse",
+  "songKey": "example-song",
+  "offset": 0,
+  "commands": [
+    { "time": 0.0, "color": "#000000", "brightness": 0, "effect": "Blackout" },
+    { "time": 1.0, "color": "#7C3AED", "brightness": 0.35, "effect": "Purple low" },
+    { "time": 2.0, "color": "#7C3AED", "brightness": 1.0, "effect": "Purple full" },
+    { "time": 3.0, "color": "#FFFFFF", "brightness": 1.0, "effect": "White hit" },
+    { "time": 3.25, "color": "#7C3AED", "brightness": 0.65, "effect": "Return purple" },
+    { "time": 5.0, "color": "#000000", "brightness": 0, "effect": "Blackout" }
+  ]
+}
