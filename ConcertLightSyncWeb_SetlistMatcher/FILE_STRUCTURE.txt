@@ -1,0 +1,33 @@
+ConcertLightSync/
+├── project.yml
+├── README.md
+├── FILE_STRUCTURE.txt
+└── ConcertLightSync/
+    ├── App/
+    │   ├── ConcertLightSyncApp.swift
+    │   └── AppModel.swift
+    ├── Models/
+    │   ├── LightFrame.swift
+    │   └── LightingSequence.swift
+    ├── Recognition/
+    │   ├── ConcertAudioRecognizer.swift
+    │   └── SongMatch.swift
+    ├── Sequences/
+    │   ├── SequenceLibrary.swift
+    │   └── SequencePlayer.swift
+    ├── Bluetooth/
+    │   ├── SEBluetoothProfile.swift
+    │   ├── SEPacketEncoder.swift
+    │   └── SELightstickController.swift
+    ├── Views/
+    │   └── ContentView.swift
+    ├── Utilities/
+    └── Resources/
+        ├── Info.plist
+        ├── SequenceManifest.json
+        ├── SEBluetoothProfile.json
+        ├── ReferenceAudio/
+        │   └── README.md
+        └── Sequences/
+            ├── README.md
+            └── demo-song.json
