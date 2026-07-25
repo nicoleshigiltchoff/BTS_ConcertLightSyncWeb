@@ -2,14 +2,14 @@
   "audio": [
     {
       "id": "dynamite-audio",
-      "path": "dynamite.mp3",
+      "path": "audio/dynamite.mp3",
       "title": "Dynamite"
     }
   ],
   "sequences": [
     {
       "id": "dynamite-sequence",
-      "path": "dynamite.json",
+      "path": "sequences/dynamite.json",
       "title": "Dynamite",
       "songKey": "Dynamite"
     }
