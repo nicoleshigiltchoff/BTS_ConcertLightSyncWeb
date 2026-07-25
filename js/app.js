@@ -4,6 +4,7 @@ import { decodeAndFingerprint } from './fingerprint.js';
 import { ConstellationMatcher } from './matcher.js';
 import { MicrophoneRecognizer } from './recognizer.js';
 import { normalizeSequence,SequencePlayer } from './sequences.js';
+import { loadRepositoryAssets } from './repository-assets.js';
 
 const $=id=>document.getElementById(id),logEl=$('log');
 function log(msg){const line=`${new Date().toLocaleTimeString()}  ${msg}`;console.log(line);logEl.textContent=(line+'\n'+logEl.textContent).slice(0,18000);}
@@ -66,5 +67,35 @@ async function importBackup(file){if(!file)return;const data=JSON.parse(await fi
 function updateOfflineBadge(){const b=$('offlineBadge');if(!navigator.onLine){b.textContent='Offline';b.classList.add('ok');}else if('serviceWorker'in navigator&&navigator.serviceWorker.controller){b.textContent='Offline-ready';b.classList.add('ok');}else b.textContent='Online';}
 window.addEventListener('online',updateOfflineBadge);window.addEventListener('offline',updateOfflineBadge);updateOfflineBadge();
 if(!lights.supported())showBtError('Web Bluetooth is unavailable in this browser. On iPad, use Bluefy rather than Safari.');
+await loadBundledAssets();
 renderAll();
+
+async function loadBundledAssets(){
+  const box=$('indexProgress');
+  try{
+    const result=await loadRepositoryAssets({
+      existingSongs:songs,
+      existingSequences:sequences,
+      onStatus:message=>{box.classList.remove('hidden','error');box.textContent=message;},
+      onLog:log
+    });
+    for(const song of result.songs) await put('songs',song);
+    for(const sequence of result.sequences) await put('sequences',sequence);
+    if(result.songs.length||result.sequences.length){
+      songs=await getAll('songs');
+      sequences=await getAll('sequences');
+      matcher.setSongs(songs);
+      box.textContent=`Loaded ${result.songs.length} bundled song(s) and ${result.sequences.length} bundled sequence(s).`;
+      renderAll();
+    }else if(result.manifest){
+      box.classList.add('hidden');
+    }
+  }catch(e){
+    box.classList.remove('hidden');
+    box.classList.add('error');
+    box.textContent=`Bundled asset error: ${e.message}`;
+    log(box.textContent);
+  }
+}
+
 function formatTime(s){return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;}function normalizeName(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'');}function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}function escapeAttr(s){return escapeHtml(s);}function download(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}

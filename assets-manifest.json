@@ -1,0 +1,17 @@
+{
+  "audio": [
+    {
+      "id": "dynamite-audio",
+      "path": "../audio/dynamite.mp3",
+      "title": "Dynamite"
+    }
+  ],
+  "sequences": [
+    {
+      "id": "dynamite-sequence",
+      "path": "../sequences/dynamite.json",
+      "title": "Dynamite",
+      "songKey": "Dynamite"
+    }
+  ]
+}
