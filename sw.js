@@ -1,4 +1,4 @@
-const CACHE='concert-lightstick-sync-v1';
+const CACHE='concert-lightstick-sync-v2';
 const SHELL=['./','./index.html','./css/app.css','./js/app.js','./js/config.js','./js/db.js','./js/bluetooth.js','./js/fingerprint.js','./js/matcher.js','./js/recognizer.js','./js/sequences.js','./js/repository-assets.js','./manifest.webmanifest','./assets-manifest.json'];
 
 self.addEventListener('install',event=>event.waitUntil((async()=>{

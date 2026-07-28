@@ -21,5 +21,5 @@ export const AUDIO = {
   timeQuantizationFrames: 2
 };
 
-export const DB_NAME = 'concert-lightstick-sync-v1';
+export const DB_NAME = 'concert-lightstick-sync-v2';
 export const DB_VERSION = 1;
