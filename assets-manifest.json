@@ -41,6 +41,11 @@
       "title": "Idol"
     },
     {
+      "id": "into_the_sun-audio",
+      "path": "audio/into_the_sun.mp3",
+      "title": "Into the Sun"
+    },
+    {
       "id": "like_animals_fake_love-audio",
       "path": "audio/like_animals_fake_love.mp3",
       "title": "Like Animals Fake Love"
