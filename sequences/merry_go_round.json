@@ -1,0 +1,5743 @@
+{
+  "format": "bora-waves-sequence",
+  "formatVersion": 1,
+  "timeUnit": "seconds",
+  "sequence": {
+    "id": "e41f1b1a-2623-449c-8bb7-31a031cc3be9",
+    "user_id": "cb26345f-b1b4-44da-96a4-d7f324cbd0f7",
+    "title": "Intro + Merry Go Round + Outro (Arirang World Tour)",
+    "description": null,
+    "video_id": "wUZnIKWxP8g",
+    "is_public": true,
+    "is_bts": true,
+    "album": "Arirang",
+    "like_count": 0,
+    "created_at": "2026-06-03T05:52:32.016083+00:00",
+    "profiles": {
+      "username": "3r1kd4n",
+      "avatar_url": null
+    },
+    "clips": [
+      {
+        "id": "0d4cae93-de79-47b6-ac6b-56939470ccad",
+        "data": {
+          "color": "#50007b"
+        },
+        "start": 0,
+        "trackId": "color",
+        "duration": 2.4
+      },
+      {
+        "id": "050ba5c5-2c61-4cde-8d2b-c4482486974c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 0,
+        "trackId": "mode",
+        "duration": 2.4
+      },
+      {
+        "id": "f5375ae0-22ee-4239-a67c-61a94a4db673",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 2.4,
+        "trackId": "color",
+        "duration": 4.8
+      },
+      {
+        "id": "81506ece-ccac-419e-9e23-0e5e090fdd0a",
+        "data": {
+          "type": "fade"
+        },
+        "start": 4.6,
+        "trackId": "mode",
+        "duration": 2.6
+      },
+      {
+        "id": "59c7f738-e7c9-4192-a093-2c4b9ad1854b",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 7.2,
+        "trackId": "color",
+        "duration": 5.8
+      },
+      {
+        "id": "6b02e910-75b2-41bc-a6b8-825e3b504f7b",
+        "data": {
+          "type": "fade"
+        },
+        "start": 10.7,
+        "trackId": "mode",
+        "duration": 2.3
+      },
+      {
+        "id": "44a7ca1e-1c1b-4673-a699-e2458694e069",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 13,
+        "trackId": "color",
+        "duration": 4.9
+      },
+      {
+        "id": "470a0d3e-cdd1-47ba-80fa-1f76ae685d3b",
+        "data": {
+          "type": "fade"
+        },
+        "start": 15.8,
+        "trackId": "mode",
+        "duration": 2.1
+      },
+      {
+        "id": "c73a8d34-2687-4733-a5d9-d28cd72ef5f6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 17.9,
+        "trackId": "color",
+        "duration": 5.8
+      },
+      {
+        "id": "8f545091-9a32-4ea7-941d-688d41aace04",
+        "data": {
+          "type": "fade"
+        },
+        "start": 21.6,
+        "trackId": "mode",
+        "duration": 2.1
+      },
+      {
+        "id": "43289ca0-522c-4b00-9623-01088e9ff078",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 23.7,
+        "trackId": "color",
+        "duration": 5.7
+      },
+      {
+        "id": "43eb0ead-108c-4e9b-8c7f-3cbacbf599c4",
+        "data": {
+          "type": "fade"
+        },
+        "start": 27.3,
+        "trackId": "mode",
+        "duration": 2.1
+      },
+      {
+        "id": "a24b6d04-1f21-4990-8021-675a50435337",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 29.4,
+        "trackId": "color",
+        "duration": 3.9
+      },
+      {
+        "id": "58864129-a5f7-4816-a06c-cc0b4e29e7a0",
+        "data": {
+          "type": "fade"
+        },
+        "start": 31.2,
+        "trackId": "mode",
+        "duration": 2.1
+      },
+      {
+        "id": "cd93d18b-9108-4759-b57b-66b366824f62",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 33.3,
+        "trackId": "color",
+        "duration": 2.1
+      },
+      {
+        "id": "9882cdc6-796b-4d21-b96e-8a2cdec23f62",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 33.3,
+        "trackId": "mode",
+        "duration": 2.1
+      },
+      {
+        "id": "9a79140a-de8d-49e0-b0ac-2b706cc52699",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 36.7,
+        "trackId": "color",
+        "duration": 11.3
+      },
+      {
+        "id": "31dfe84e-fc6b-4bdf-a14c-4b75203eaf9c",
+        "data": {
+          "type": "fade"
+        },
+        "start": 45.5,
+        "trackId": "mode",
+        "duration": 2.5
+      },
+      {
+        "id": "eab664c4-5ad8-4d0c-84c8-c234153b3670",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 48,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "26cc571c-d5ff-4d1e-985a-73d5cd0b25f7",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 48.2,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "79ed776d-e6f5-4124-8bb6-6a9a4a67dd4d",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 49.5,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "82781ae0-9448-4c69-bab9-c8acc1476721",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 49.7,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "96b28dce-8992-4be8-ad4a-dda0d3f4b8c4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 51,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "547af8ed-b6ef-494e-927c-b67f537f9a57",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 51.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "e5fae215-bbd4-4609-beaf-7d546bd3efc2",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 51.7,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "70f407db-9edb-48d7-b7e7-f3a2252a4058",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 51.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "4265f2d5-6e5c-4cb8-81c1-5991db18e9df",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 52.4,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "af3b4c5f-5bf4-4f57-8a63-5af626eb445a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 52.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "62227f62-83e8-45a0-8614-6f6c048118f3",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 53.1,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "fa47de70-3398-4013-b282-58e08a75d7b7",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 53.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "9f7e1a15-9b8f-4df8-9ba8-3684d9da9854",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 53.8,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "d92a1479-ea93-4ad9-85ae-a7751859eb6e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 54,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "43b5e639-6489-4e55-a8e5-0c7f419943aa",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 55.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "94061c5b-063f-4aeb-af95-0598ab551125",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 55.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "33bea611-1c92-46a2-8693-ae82dbb13f39",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 56.7,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "242b8fb0-da76-42ba-b93e-985aed080a94",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 56.9,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "587fd844-3e59-43cb-83b1-4e8d9a2f5b7c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 57.3,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "1481b31f-1f57-4c3e-9003-b24bb0ce9c5e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 57.5,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "27781638-7828-416e-b4cf-7028ad677b6c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 57.9,
+        "trackId": "color",
+        "duration": 1.6
+      },
+      {
+        "id": "5ffdf06c-36f1-4b24-8dde-3a752c23f789",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 58.1,
+        "trackId": "mode",
+        "duration": 1.4
+      },
+      {
+        "id": "a533d0c7-6a98-4d10-bb8a-23a7d8d24ba9",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 59.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f8122707-949c-49cf-94fc-9be00d073fea",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 59.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "58c18304-529f-48e3-8428-f8b1f42f2307",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 60.9,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "056e5673-631f-4ade-891f-2a5aa037d2d8",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 61.1,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "9faa29be-84ec-449f-b80c-689a972f6f8a",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 62.4,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "8c0c7d17-99d9-41ae-8b54-638407eda504",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 62.6,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "57e95c1c-79bb-495c-9f64-849a4751a5c3",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 63,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "627e3520-7ae4-4d10-821a-7c104b453c66",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 63.2,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "2995609b-4f45-4739-90c5-4d219d94965f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 63.8,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "2ce6b0eb-6ddf-4ccb-a276-3a859183bf7e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 64,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "4d574f79-9225-4f51-a50e-7d0f26e3a313",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 64.5,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "8a786d81-a69e-4c5e-813e-2ae303abcb1f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 64.7,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "b0ca957b-c999-4655-a2a6-0159fe14faad",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 65.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e126d3fa-39b4-4332-ae48-dc4779cc13ef",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 65.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5f6c1017-1f67-4049-861a-28e054834943",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 66.7,
+        "trackId": "color",
+        "duration": 1.3
+      },
+      {
+        "id": "90ae9965-596c-4f13-8cad-5311965a5676",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 66.9,
+        "trackId": "mode",
+        "duration": 1.1
+      },
+      {
+        "id": "bf5d0639-5571-4192-9ec0-82ba9bd4a6f7",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 68,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "50b904b9-e952-49c0-b718-0b793976fd29",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 68.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "86ce7617-35b0-4e8d-a1a1-9cc30036ac1f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 68.8,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "58ac735f-f22f-408c-a49c-5cd38c294a16",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 69,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "f7504420-8196-48b9-962a-045bc9785eba",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 69.5,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "ccabc8d2-457c-4395-8936-795133c8c44e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 69.7,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "99dc0cdf-29d6-43b6-8563-a04300e7cea9",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 70.2,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "a0d079d8-b502-4fc5-aae9-17680efdc2fb",
+        "data": {
+          "type": "flicker"
+        },
+        "start": 70.2,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "3a2b62a2-5001-42ad-8218-83997425a60c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 70.4,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "1cb1c8b4-263f-4f4a-9bc8-b9814c184a68",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 70.6,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "e1854399-3791-4679-9621-4e10bc1c1a8a",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 70.8,
+        "trackId": "color",
+        "duration": 2.2
+      },
+      {
+        "id": "c9a222a5-3878-4987-b6b8-61a5a7c80444",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 71.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "452a9895-12d6-450f-b0f0-6b1e6539ee88",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 73,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c3a12135-0138-4693-a903-2cd6b18a51d5",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 73.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "e1678350-4cb2-49df-98ec-d3cde6811b02",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 74.4,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "fbbe839e-765e-4c09-bd75-277c9d7ed823",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 74.6,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "6e49c8b9-3a95-4764-aaa7-e9707ef50938",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 75.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "55b6c626-723c-48ed-80de-7c9859162bf3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 76.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "dff3013a-57be-4ccc-9950-f9cb01a5f8ad",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 77.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0a993945-7f78-47fb-8d77-f07fe04e2761",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 77.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "2f8a9822-2efb-4279-8006-0f59171617d1",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 78.7,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "d7054ff9-33c3-45f9-9f3b-2dd0295aa120",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 78.9,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "463e0ebc-cb0f-44b7-9a06-da3e9ca90eb8",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 80.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0c62e4d0-aefa-4eca-aab7-9285942cf9fa",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 80.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "babc9ef4-908d-465c-896a-d7800f56fee4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 81.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f2022305-e1e4-4b95-ab54-2bfd3998c783",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 81.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "596302b9-df27-45ef-ab4f-99aead17bb22",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 83,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "618954dc-d243-4aa5-b10d-e19005a9289f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 83.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4b929872-3f38-4ee1-9c34-b5a263bab4f4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 84.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "5fd9bacf-3967-43b9-a147-b619f91fb4d1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 84.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "fb783ac7-68e8-467f-92b5-9a0e3645253a",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 85.8,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "9d32615f-64dd-4f9d-8f68-0e1382d85528",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 86,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "cc8883ed-e09c-4a31-a977-58c1fb4b71e3",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 87.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "3cda03e0-b405-411d-a9bc-8c5eb9c2b083",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 87.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "db8390c1-34a2-4f03-842b-0471572e7bf0",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 88.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "2e606ab8-c6f8-482c-bf29-b2a09709cc21",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 88.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "c34fd17d-64f5-464f-b981-73aa7e72562b",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 90.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a0b2c8fa-cd9c-4525-8d67-98a368d8752b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 90.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "a93e914a-a5cc-4d4f-ae75-72caa767bc19",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 91.5,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "42c8768a-4838-4642-8896-612c042296b7",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 91.7,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "54663a2f-21e3-4904-bb97-7afb406b53ca",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 93,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "46dbf75a-7620-4a05-89c2-c1e6768dcb68",
+        "data": {
+          "type": "flicker"
+        },
+        "start": 93,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "0ebf23fe-6bfe-4f88-b23a-588151295f2c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 93.2,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "07ec48cd-c599-44ad-ab86-b90cac2c4b56",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 93.4,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "349c5be2-e4e3-4199-b8d6-624d0f439770",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 93.6,
+        "trackId": "color",
+        "duration": 0.9
+      },
+      {
+        "id": "6aa75dfc-d0f5-4236-a406-53c68bc3f28a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 94.1,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "3325f061-4d09-417f-9b27-b4b143ec933b",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 94.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a9e0ba25-ad34-47f9-95d5-79266c5c97d1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 94.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "d27c9f2a-8982-4902-b325-9a274bf145fc",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 95.8,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "a58b98d7-fa71-4630-9a3c-bc96767514c6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 96,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "c4cfd81b-7841-4f93-9f5b-c713ea450466",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 97.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "673fbb39-ed93-4a0a-b059-231b5de22f8f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 97.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "ac7c0742-2cfa-4d74-ac36-5b59d98e5e3d",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 98.7,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "87f49440-3ca6-4585-b137-e0a32fb3d3f7",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 98.9,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "05f66127-b2d4-4b75-a493-b087a036200e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 100.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "09db7bd4-9928-43e2-8df2-ddbee78e263a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 100.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "595bd0d4-61a5-40b6-a3c6-1405df469772",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 101.6,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "35a9f1af-446f-47f9-afd7-3acb3a0e636e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 101.8,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "7da249a4-52e3-4d1c-b1fd-a8eb0428cd89",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 103.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9e9096b5-738d-4d13-9831-0c7f19fb6727",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 103.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cba27db4-1caa-45f6-8e60-ff2b32cf56ff",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 104.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "3079f7ed-f8e5-4e80-8616-5a36eb52f560",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 104.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1bf305e2-ff93-49d7-b0b0-a010f68dd4c0",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 105.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "15933622-fbc9-4812-8fb4-265bb074e2fd",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 106.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "ba9a7c02-56af-4892-a034-f4b5cb946a4c",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 107.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b1ceec50-a6ae-4b0d-8fef-61995bc9a565",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 107.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "0f1bd1bb-b56c-4abe-804c-417838351a59",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 108.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "723b8a84-b532-4e48-92a9-533e363c526c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 108.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cbcdd0be-36c2-43a4-8635-26e89c717327",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 110.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0d8b2b65-e311-420c-9224-7e123bfe0762",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 110.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "aeb7f857-1b2b-4bb7-91e4-0a7a68bfb205",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 111.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c3626e65-8736-42ac-aec0-864b48059738",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 111.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "19fdd96a-7e40-4166-a66e-65746b03c51d",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 112.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e0d9134b-4fd7-4cd6-abb2-d5ee4843a404",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 113.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "84b84583-7938-43e5-8d04-4fe2c10e5190",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 114.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "57a5bfdd-25c1-4602-8be1-654d1e129544",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 114.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4452b4c4-150b-4585-8193-94c704e9a3c7",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 115.7,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "c8487702-bb81-4fc1-a4cc-d4c4a9a51947",
+        "data": {
+          "type": "flicker"
+        },
+        "start": 115.7,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "29302d09-c1a8-4581-8695-6922f5dfcaa4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 115.9,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "4a46e12c-ad87-4b98-94f7-72857f6fa0bb",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 116.1,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "81b5f178-8b81-4e88-ad31-75a36c08f576",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 116.3,
+        "trackId": "color",
+        "duration": 1
+      },
+      {
+        "id": "2755cd40-2b45-4e39-8116-377dcb57b913",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 116.9,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "a9eac335-e7fc-4662-8162-aaa27d804995",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 117.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c7362b23-44c3-4db1-a85a-8da0537710dd",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 117.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "fe2597f0-f03f-4762-8059-1376ca11818b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 118.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "569793f7-44ca-4396-a535-c38f29858433",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 118.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ec5c1d51-bc92-401e-b420-f72a76be6d41",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 118.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "f7d9dcd7-6ad3-473a-92e2-887306f03092",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 119.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "3551ab31-5ce2-41c7-a6b6-269289f70198",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 120.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "71906dbb-a7b3-43a5-802d-ebdfc41670d6",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 120.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "2c9de573-c5aa-4701-b6e4-d4dd1f7d5fe5",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 121,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "14adb4d9-8c53-4760-a0db-6d3fdc5c8867",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 121.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "68fcfb67-bf61-4c21-a3c6-5d03172dafb2",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 121.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "e37037ba-4664-4f4e-afc4-c2fdacfe284c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 122.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "41f5f5d8-b89d-451b-bf44-eead878c2c73",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 122.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a3d9f381-9e24-4dc6-9811-327e19f4b031",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 122.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "a8eb11e0-c96f-4c35-9be1-518fdc4040ce",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 123.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "58f1cad8-89b4-46d0-94ec-196aad00fc68",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 124.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "d5ceb6aa-6547-4c80-9226-3598aa7b879c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 124.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "2c2fb7bf-83c5-481a-b9bb-95f925662ac2",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 125.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "f1164e72-1d7c-46a5-be42-e53e7398e0c1",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 125.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f8a72e46-212a-417e-8228-3ed81d98d17a",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 125.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "65f8cca9-e457-42f3-ae9a-67c8bfbfb40f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 126.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "052a66d9-5726-44ab-bfb3-eb6842cf2f15",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 127.1,
+        "trackId": "color",
+        "duration": 1.7
+      },
+      {
+        "id": "f0c605de-6051-4486-8f6f-c3d3bc2d423c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 127.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "510db0cd-e39c-4aaa-abf4-e891990e47ab",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 128.6,
+        "trackId": "mode",
+        "duration": 0.2
+      },
+      {
+        "id": "61eb2eea-dce7-4eb0-9256-6b57b15e3bbe",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 128.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "2a362092-13f9-4c15-be2a-6e254ed6dd60",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 128.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "4070916a-aade-48a0-ac39-b30161e8ef3f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 129.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "025c8974-faca-41d4-93ee-c18a7385fa14",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 130.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ba479da4-8836-4407-85fd-f53f3470229c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 130.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "5f2e1366-2a06-464c-8e98-f1f35806a57f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 131.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "42ef7506-d6e2-4fad-9302-f78d2966873f",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 131.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b7d282f9-5a4a-41f3-8ca1-03501cd078a8",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 131.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "7779c41f-84e5-4320-9f6e-c883728fed23",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 132.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "8da178b3-1f61-4250-adcc-fe5249cb9198",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 133,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "3176fc4b-a8fb-40b1-9270-36510312622e",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 133,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "1b929bf4-e395-4b42-807b-4a73e6069f2d",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 133.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "4512f99f-c5ca-4124-a446-8cf399e09b36",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 134.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4f36628f-0508-4505-a71e-5c9603d2b953",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 134.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "a1a4c667-8953-4ca1-8496-d398d5b02adb",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 135.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "d29d7b8a-c74c-4383-b0ec-0f4a3085847d",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 135.8,
+        "trackId": "color",
+        "duration": 2.2
+      },
+      {
+        "id": "194c8b77-0bb2-4515-9fc1-422f619695bf",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 135.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "61726f56-09d6-47a8-842f-b1d3d18162c3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 136.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "540cacfb-974c-4b64-8c16-bce1c4f5aeee",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 137.2,
+        "trackId": "mode",
+        "duration": 0.8
+      },
+      {
+        "id": "155babff-8d9b-447c-944e-0d03d0a493e6",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 138.1,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "e9ac0894-b9bf-4b95-8b49-819d7fd234d4",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 138.1,
+        "trackId": "mode",
+        "duration": 0.2
+      },
+      {
+        "id": "699d08a0-cda7-4e66-bbe1-28b803135287",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 138.4,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "96a2be44-b4b6-44da-b797-3cb700289d3d",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 138.4,
+        "trackId": "mode",
+        "duration": 0.2
+      },
+      {
+        "id": "ff4759d5-c376-448b-928a-91f9777fc895",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 138.7,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "807799f7-61c5-49b9-8dfb-3d274ff01317",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 138.8,
+        "trackId": "mode",
+        "duration": 0.7
+      },
+      {
+        "id": "e6997ca2-969b-4c81-91c9-c421587ea8f5",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 139.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "083bd332-b96c-43c7-b2f6-92bc00fe21fb",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 139.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "f0f658f3-1a27-4487-a5c5-aaa0cb8e370f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 140.9,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "dc6e55af-07b0-425e-a1c7-1fd9b24488e3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 141.1,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "c6ef06fe-aa06-44c9-85db-9b6500323a86",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 142.4,
+        "trackId": "color",
+        "duration": 4.2
+      },
+      {
+        "id": "28fb7015-14c2-4630-bada-690b7985afbe",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 142.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "a3a0d3c8-7e26-430a-8c17-f5d4f31081b3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 143.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "6ebe3c65-5e2c-41c9-9257-3da6f10aa807",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 144,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "51326040-9eb2-4574-8b32-61eaf97b1a94",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 144.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "c3aa4c5d-3ba6-4b2d-ab6c-81dceaade600",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 145.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cfabe1c9-1761-4adb-ba5d-af3912da8a23",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 146.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0146d4c2-2c0c-4b92-a816-d466dab722e0",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 146.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "45a9698b-441c-441e-82e6-cdfe412d4986",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 148,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "664ef020-6528-4912-939a-163462827015",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 148.2,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "3138bc39-6e66-4285-ae63-7d262a97f479",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 148.8,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "ba5e1058-6cc8-4851-9759-2a89148bab75",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 149,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "ea43ac9d-2dd8-490f-8d77-a2b93857b088",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 149.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e2211d37-7427-40b5-bab9-7733352f3af1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 149.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "82445e32-1ebf-4baf-95d5-8e533c1bdc42",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 150.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a8536a6e-1038-4657-ac48-2d4b7e153db9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 151.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "e674c7d8-7333-44d5-b527-b15c9dbf5d95",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 152.3,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "eefb2a3c-0966-474c-a20b-77608821ef40",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 152.5,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "2cfb9cbb-ac24-4b09-b43a-e6f898dfb023",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 153.8,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "653101d9-9dfe-48bd-af1f-c4b8451e8cb1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 154,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "469298ac-a1c7-4290-9afd-0a3651fc89eb",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 154.5,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "d56c22ee-cbb0-4520-a014-8e2c92a41a41",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 154.7,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "fae9c8db-282e-450f-b40f-5cf6f12cabc6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 155.3,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "b4d49ea5-8c6e-4541-977d-f7314b90ac65",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 155.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "debe8252-ecb5-4af1-83b1-10d0055d9368",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 156,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "66dd9632-4949-4ff8-b332-5f421039ea10",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 156.2,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "be755442-461c-4e49-9bfa-c7996f7b4740",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 156.6,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "b82af69d-172b-4d4e-86d3-380950ea9840",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 156.8,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "24fa2d97-e7e6-4a74-8e1a-accc22d21d3f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 158.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0008207b-7dd3-459d-ac84-a80303bdf63f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 158.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "6c8d2783-357f-47bc-8ded-50d5292cea1c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 159.5,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "7d011232-dea3-4bc9-af42-715fde50fda9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 159.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "6851dd05-fb8b-469c-adde-31f1427b03c3",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 160.2,
+        "trackId": "color",
+        "duration": 1.3
+      },
+      {
+        "id": "f6da6be4-32a5-4870-bd92-0a976672920f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 160.4,
+        "trackId": "mode",
+        "duration": 1.1
+      },
+      {
+        "id": "8ff35ecf-5e1c-493b-b470-54374d8c4d36",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 161.5,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "d8d15c8c-bb93-49fa-b5fb-3a399910f357",
+        "data": {
+          "type": "flicker"
+        },
+        "start": 161.5,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "ef5ea03f-6adc-4387-bd0b-521756f111df",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 161.7,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "6c9bf367-00c7-4e5a-b0d0-865f648d6852",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 161.9,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "6e2a9397-87e3-49cb-bc95-19578a4132b7",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 162.1,
+        "trackId": "color",
+        "duration": 0.9
+      },
+      {
+        "id": "71d8a331-73d2-448f-8f57-4978240d8e5b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 162.3,
+        "trackId": "mode",
+        "duration": 0.7
+      },
+      {
+        "id": "e76f54e6-4fa6-488a-9b00-0f7779b52280",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 163,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "5e82fc74-0aa8-4080-a24b-1a0fd81eb1ea",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 163.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "d22f1d4b-88d0-4659-95bc-145594ff6a04",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 164.4,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "7af5dfac-6f2e-47cd-adcd-684a1f1c1cc1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 164.6,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "4fdc18a6-0c90-4256-b699-09c5dcebd4e1",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 165.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a950b766-fe20-4158-b62b-1cd42535c7ef",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 166.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5b8f7e74-f698-40eb-b222-04555fe7cb92",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 167.3,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "daec961c-f28e-40a2-9570-7353d9a43ca8",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 167.5,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "9c4e865b-660a-4fdb-94f2-763ae43aec73",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 168.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "078843c9-d97e-4749-84a8-03b748b5546b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 169,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5aaed2bb-d44e-4522-8622-ac23c9762405",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 170.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f195f5d2-3132-4fea-90ad-bf28d628c7dc",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 170.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "baf33aee-8670-4eab-af5c-1ab902898dbb",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 171.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4c58ab9d-c4e1-42b9-b1f0-4c78735d863d",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 171.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "c634dbe6-2b4a-468f-ba41-4094d0fb978d",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 173,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "12588650-dd95-42df-9f63-4b835a799c59",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 173.2,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "53610d77-1b83-47a9-a20b-74bfd2c156ac",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 174.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "394245cd-e652-4030-b72e-fa3c4aa64d2a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 174.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "2948fe18-f186-41b8-aa2e-4a16330dc4b9",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 175.9,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "471542f9-bf5b-45bf-b642-9370428952b5",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 176.1,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "9258a07a-3764-41a4-8aae-fcd82a58e317",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 177.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "5f5aca63-7729-4244-a515-3f364be2e0fe",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 177.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "3fdf725a-6454-47e5-a490-4208dbb3cc7f",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 178.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9a6642c4-c30d-4418-b903-89ec40c66731",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 179,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "e3b8644a-502d-446d-a985-6ba8ea826574",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 180.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "708a3364-3cf4-4a1a-918d-4af23eafff78",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 180.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "b0491ee5-48cf-4e87-bc43-38dcbbc00041",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 181.6,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "a7de50b5-75ce-43a6-bf85-cc1020c53209",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 181.8,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "4933009f-c93a-4156-92c0-ef895ea902cf",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 183.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "af8271de-c53a-4cab-9e36-e03f646fccb8",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 183.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "8ddffc7f-f96f-4472-af8d-5c24d90da659",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 184.5,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "848a959d-62f0-4d56-a49c-231f2e7d1067",
+        "data": {
+          "type": "flicker"
+        },
+        "start": 184.5,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "b0d49049-2319-4c5c-b143-1e3e828a2b0c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 184.7,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "f553a80c-8e71-4532-837e-9a9a0d757724",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 184.9,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "a485ac6a-d3c5-45cc-b0fb-15e3763a7508",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 185.9,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "db8e1244-9373-40f1-8621-6ef2b9db67f6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 186.1,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "339d6ca0-82d5-4d7b-a92b-ffc0e88f4ee1",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 187.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "33f7a0a2-de29-4fb3-b2b4-5d7ae4a7bdbc",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 187.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "15065486-0c24-4309-9b1c-6c0a6733a933",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 188.8,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "fccb4332-4f6d-4eac-981e-20d9e8c25025",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 189,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "c5f893ef-30a8-449e-8483-fe0ae1c691be",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 190.3,
+        "trackId": "color",
+        "duration": 1.3
+      },
+      {
+        "id": "145ce36f-4529-4e5b-b1b0-5d8e002a76de",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 190.5,
+        "trackId": "mode",
+        "duration": 1.1
+      },
+      {
+        "id": "d3aa366f-58f0-4ea8-aaba-d3619b45bc0f",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 191.6,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "0f2436bb-a0b1-4d15-9a59-abf352d3c71e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 191.8,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "79638884-4397-4baa-a4be-ee8c5fdb59eb",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 193.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4695ea47-934f-4b3c-a6f7-9e3d21057e32",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 193.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "8bf853e4-1be4-4292-b57d-970e3880ce8b",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 194.5,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "8de3eeb1-fed4-48d5-a109-8d1ad158de62",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 194.7,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "d091fa19-7300-4d1b-b3ee-6510780c06d6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 196,
+        "trackId": "color",
+        "duration": 1.3
+      },
+      {
+        "id": "b777d74f-ea0f-4f63-a6ca-2c951cce1bfa",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 196.2,
+        "trackId": "mode",
+        "duration": 1.1
+      },
+      {
+        "id": "3c294db5-6146-4bd3-9b52-b6af0d4ab8d7",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 197.3,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "8461ac3d-1c34-4c06-b22a-75b5d97e754a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 197.5,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "cb2177ab-0da4-41ce-87af-3554ccd37786",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 198.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f33a11ff-a7b2-4271-980a-6480cdc7feb7",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 199,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4d8eb9cb-16ba-4f41-934b-14f2455281b0",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 200.2,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "94c5e288-df57-43fc-8b98-ae590780e3c2",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 200.4,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "379fe784-7417-4bd4-849d-957ac68094b0",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 201.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b6372551-361e-4a68-b144-2eaa883f363f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 201.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cc15fdbf-a312-46a5-bc3a-537bd48cec06",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 203.1,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "286475b8-89f6-4b40-b6eb-2897ddf5725c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 203.3,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "87f15bcd-c2d0-4ae0-af11-1ca931a5cc54",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 204.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4eaf0b84-6458-42fe-a959-69696fcc426c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 204.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cee6788c-1830-4cb2-8810-564a19248516",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 206,
+        "trackId": "color",
+        "duration": 2.1
+      },
+      {
+        "id": "50e8543f-52b0-4baa-80f9-8d1f595578bd",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 206.2,
+        "trackId": "mode",
+        "duration": 1.9
+      },
+      {
+        "id": "b51f2e07-fa15-4bd8-b019-928c0898286e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 208.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a80d8179-28b7-4ffd-b494-4873aef97925",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 208.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "13e77eb7-8967-40c8-b248-35e5d7f2eed7",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 209.5,
+        "trackId": "color",
+        "duration": 1.3
+      },
+      {
+        "id": "dde85485-4718-43ff-92ed-f9f00d20c83e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 209.7,
+        "trackId": "mode",
+        "duration": 1.1
+      },
+      {
+        "id": "01f36664-072f-450e-97df-d272a60f5370",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 210.8,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "bfbce3fc-73e9-45e9-b174-63f66a6c79c7",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 211,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "f5eb8616-ac53-4396-abc3-cc2b2c0edef1",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 212.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "da3e794a-ace6-49e1-8a10-6609c8b215b9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 212.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "516c37bd-18d3-4323-b778-31c49b5b1eda",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 213.7,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "94681be0-c102-44b7-99b2-22ad16f3a632",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 213.9,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "0bd7b3c0-f219-4a26-910b-f6cf5c278dfa",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 215.2,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "34a60109-1693-41cb-bfd2-736b6c0e5e2b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 215.4,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "63fcdf53-6e32-44e9-824d-c1ed5bc11333",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 216.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "6efd5c0f-44f2-4ec6-9a1a-61aa4236d081",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 216.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5ee9559d-6bfd-4af8-8679-26e808d5b8bd",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 218.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "296de961-4e03-42f0-9f7b-91b45994c695",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 218.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "57b7fe68-7642-4c86-8621-26ee7bd271dc",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 219.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c0a32d37-7982-4e20-bdc5-a4c83a8e1e1a",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 219.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "277cf04f-e45f-4932-be0f-caa334d3540c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 220.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "0dcb276a-8f2a-45c2-8c2a-494e831af30e",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 220.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "30d987c1-fac8-43eb-a18d-ed3b877a9c32",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 220.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "8e046e0f-cd0f-4f3d-864f-11cd21eb474d",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 221.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "c14e9440-8180-4d31-8633-d0497ae87580",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 222.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0d3f8765-2637-4c93-8a16-f03d1e92d82e",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 222.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "9cec1f55-e5e0-417c-a1d8-affe5b0904b6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 223.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "8abef289-a997-4f22-9f9c-7c3d1e58077f",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 223.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c0569f77-1626-4ae1-83d7-6ef0cc95ca1a",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 223.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "47092f96-d1ca-49bd-8554-67e91d6120d6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 224.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "24c87fb3-2b95-42e6-ac69-32531fe180ab",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 225.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "47d604cb-b7d5-4777-b456-bf08fb511c38",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 225.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "de2c210f-64a5-42a0-8c7e-08ec5155b582",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 226,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "f69c71e0-f66c-4ec3-860f-981c886865bc",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 226.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "47879be7-4d5c-42bc-bbdd-d7679ee12f42",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 226.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "4bf58492-c97a-400d-bd61-b01e818b1ef6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 227.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "ecf5f6d0-5dc1-41d8-9b8c-f66cc10d3feb",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 227.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "93bd752d-21c0-4ef2-8fdb-37b15be242f2",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 227.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "70fde98e-b664-447a-9ca7-89750f3d90c5",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 228.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "b936bb5e-f797-4a29-bb57-58e2ec153f72",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 229.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a0eaaec9-26d1-400c-a30c-630c8d38fb1d",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 229.3,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "040deac8-d060-4a59-a892-ab276eff5aef",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 230.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "8483e357-7b0c-4d03-a9bb-105bc86479af",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 230.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "8953d4c2-507f-4749-a0fd-e5427be405fe",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 232.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "2875da40-d62b-4ebc-aded-e01635ba6b9c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 232.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "c281f267-b950-4b0a-96b4-8418f86955bc",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 233,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "5a863fa4-5ac4-4c3f-a497-fae1892da468",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 233.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "320452b3-ebc5-4685-9fcb-f5a485f1701a",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 233.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "9f552d59-0d25-4e43-a33e-1d7bed341b6c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 234.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "9cfebbe1-74ae-4a08-a6ec-6cef64e149cd",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 234.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ea58d2c4-d306-4072-b5b0-2a99636ae6c1",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 234.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "3f7e9dfc-bcd8-4364-82cc-47f656fa6445",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 235.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "9cfb7c87-5568-47a6-be79-55bf9694956e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 236.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "13e7bddc-4bad-498f-9e50-6e76789be7eb",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 236.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "0bc21dba-de35-412f-8895-de06c73d5a55",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 237.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "f646a3f4-56fd-4c1f-a7f1-5d2cd3bf60af",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 237.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ad16cb80-3ff9-42f7-89ed-054cd9a55b2c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 237.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "12f87ad0-f670-4512-bafd-3dba18b24f6c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 238.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "8b61a901-3c64-4678-b9aa-5116e57db531",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 239.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "cdf5170e-88df-4652-bf1f-60cb682d3a8e",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 239.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "d3bd7dd4-bc00-49cb-90fe-4e665e3dc671",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 240,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "0b213ff1-7802-453a-89f4-e0324c1927a4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 240.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "03ee8154-0b5b-4aaf-8ce0-d6d20187a035",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 240.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "7d6bdbcd-1ce1-4d00-9a97-12e1e6fa7847",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 241.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "03a42969-4a5f-4967-8d8c-579a99b5ad93",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 241.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4a4643b4-e8c0-4107-a1a9-313c00ec1a61",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 241.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "24318b7e-623c-4ace-b66b-eb65661d51e9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 242.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "eb2735b3-d13c-4318-910c-b781e2ac5e07",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 243.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "26c7a460-f1fd-4f93-afa6-291e83ecc6d0",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 243.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "8d1706c7-f517-4185-b007-eeb35944b32f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 244.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "f9460fa2-7fc9-4ba2-8936-6dd8366315ac",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 244.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a2d7f2de-950b-49c9-bde8-84e8cdc10b1f",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 244.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "37bbf0d1-1b18-4718-aafa-8c02d498473f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 245.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "50ba8f33-b399-420c-924a-76f6a275109f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 246.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f84ede3d-e6a3-4223-bc0b-9fbb9eee9c0c",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 246.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "4124c5e2-25fc-4d7f-a3a4-820b6cbd7bec",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 247,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "cdc3ec4f-6a01-494a-bc26-4835a45005e6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 247.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "f78a8a05-d4f4-4f99-bb71-d4fca71a3670",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 247.5,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "226d112b-77e3-40c1-aacd-4971f26f0d47",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 248.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "242a427d-5127-41e2-89b0-93eec0fb5a99",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 248.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ae25b436-9248-4ce8-b7d5-1b282439588e",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 248.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "1320a4b2-db26-481c-b771-d93353de04ea",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 249.8,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "52b7cd7f-6780-4cc2-8423-60a9e138235b",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 250.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0f2ea071-4ae9-4129-a0bd-97575ec9f231",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 250.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "e64c48fe-3813-4d59-803d-a421e45c621a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 251.2,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "0b44df2f-db48-474f-837c-3cdc6743b9d7",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 251.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b3017a10-562e-4e46-b6f7-6ec8adcbd965",
+        "data": {
+          "type": "fade",
+          "direction": "in"
+        },
+        "start": 251.7,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "1ff8c2b9-617d-4fa9-8194-ed02164154f5",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 252.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "7117776d-5b14-4b0d-a2cf-118c1c263b56",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 253.1,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "d72d54ab-1cf9-4a08-b520-cc53c6f05da0",
+        "data": {
+          "type": "flicker"
+        },
+        "start": 253.1,
+        "trackId": "mode",
+        "duration": 0.6
+      },
+      {
+        "id": "b8103ffb-47a6-423d-b254-2dae7bee2483",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 253.3,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "65f407da-4614-4678-8d28-dbd02c5135eb",
+        "data": {
+          "color": "#ffffff"
+        },
+        "start": 253.5,
+        "trackId": "color",
+        "duration": 0.2
+      },
+      {
+        "id": "9f711b08-d3de-44f5-9d94-8746ba2bcc6f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 253.7,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "bf48deec-1f61-4406-8f61-5dbcc4031516",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 253.9,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "3c7b2b38-0330-4bde-9499-56fad38079b1",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 255.2,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "afca05fa-baa6-40f6-a784-70a93eba6257",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 255.4,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "1839c693-7c56-4cc8-8a7c-170da5b525ee",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 256.7,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "4b56b69d-9366-4f85-9f61-51c7b39e9e39",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 256.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "a42cae0b-5770-4d4d-a16a-9cd6ae56b8d4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 257.4,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "81700274-44d7-4986-a5f7-de3f30576ab8",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 257.6,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "eebf2f0a-41db-49d6-9f72-b3c02f792a2e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 258.1,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "d139a42e-9ee6-4a17-9af7-d2a6e6779295",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 258.3,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "8373f1b0-4576-487d-a497-e6b935b8c560",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 258.8,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "21301e64-7e32-409f-97f7-1482a8322f47",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 259,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "dc3723bc-5115-4dd8-82cd-3e05d44bd04a",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 259.5,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "ccdd4061-5f4e-4d6f-b87f-2c3deb6d3b0e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 259.7,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "870d7567-0ba6-4ea1-a0b3-bd09f023d4f5",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 261,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ae131f20-8f95-4387-9f3d-ec7b0a501834",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 261.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "ae106e7e-f869-4cb5-bf1c-3e3aac75c586",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 262.4,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "29136979-56d5-4402-a04e-d8fe9da73ff4",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 262.6,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "1bc66f53-f52d-428f-9170-7cf647025fa5",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 263,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "01b286f6-6eb4-477a-90f2-26d2cc067d7c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 263.2,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "bbcbbfbd-1e11-4a6e-86bf-2e744145aefd",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 263.6,
+        "trackId": "color",
+        "duration": 1.6
+      },
+      {
+        "id": "331d814a-f9b2-4c0e-84dd-884d1c904f5a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 263.8,
+        "trackId": "mode",
+        "duration": 1.4
+      },
+      {
+        "id": "d3522c5a-043c-4029-af77-4476848decdd",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 265.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "8869c566-7731-4db7-aa17-a05bcd4a5305",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 265.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "a42b7e90-024d-4888-8f49-0480c2f28ba2",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 266.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0d4e506e-d153-45fc-9bb2-27800283c903",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 266.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1eec0fa1-eb5f-4164-9c70-51f004680bd6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 268,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0ed646ba-b324-48d5-a688-d0e272633e71",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 268.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "91b1eb24-82f4-4fb5-9b1a-c0f2cf27ffc3",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 269.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "bf22e059-670e-442c-b615-897be101d298",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 269.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "27abddad-8d9a-4500-8b08-2126d953492b",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 270.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4a47da70-f852-40ee-802d-185108341bed",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 271,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "d2a17e1b-dae6-4bbe-9a19-e03039bce3a2",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 272.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4bdf4f98-f171-4771-8e14-de3222494c11",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 272.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1968ba48-9db2-43fa-902d-bb950001b66e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 273.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0c2e4781-705d-4eb8-8b76-131d56847b8a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 273.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "6d273b0c-b3bd-4334-b5ae-2a7f78074752",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 275,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "6a565c2d-e0b3-4bbb-935f-ca679ec86d31",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 275.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5f94b14b-7fa6-4790-b762-8ecf7a869975",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 276.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "d5437eef-9703-4c32-bdd0-458be31a5abc",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 276.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "c8c2a351-20b7-4312-bf9a-5c7bb467792a",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 277.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "7648559f-e662-4840-8e96-267fccb48ba6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 278,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "fc799885-1d3f-4a9a-bb5b-d6762627bc0e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 279.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e4ad4473-adda-40c9-ad66-c616edf4cd61",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 279.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5500dd63-d228-4166-a65e-470b43501e57",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 280.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e128f764-c180-47ff-a33f-6e4f1abddb11",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 280.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "e41125c8-5a42-44a5-af10-4dfda55e265d",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 282,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "3bba0842-bc33-4a89-8b9d-24e94a38b2b8",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 282.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "3eff34ab-8dd2-48ac-ab12-ce40dfd8b7f6",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 283.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4b41b846-399e-4e73-b7e8-2300b723c72f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 283.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "2f4a0760-c1af-4f51-9ee1-c91487e59af7",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 284.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9d6dd6bc-4ce3-4c0f-832f-6c51c9e809f5",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 285,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "3070dba0-de21-44b6-a2c2-af5737193074",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 286.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "bda19b3e-4def-40f0-9a28-d9bf6ac717d0",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 286.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "75132e23-ce7d-4621-92af-c1debcd3463d",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 287.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "967f248d-16c0-4c9f-b360-3707bd059de1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 287.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "3a178432-f399-4d8a-8c8e-d658669bf738",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 289,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ce161374-f43b-4e01-9565-d6ed0e5cb627",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 289.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "b0b99877-a9c9-4d0a-9e34-63de4018a382",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 290.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "60a4e9ce-4e70-446d-aa6f-9f4bcbb8c0e6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 290.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "0bb4ef88-6674-488f-aae1-572c210a9d78",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 291.8,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "736cd711-993a-411e-91bb-6d4984f46b8e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 292,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "4b1d2f24-966c-4e8c-97cd-4a6ba02e0661",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 293.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "3d20cd4b-f9aa-4d47-a38e-4426f6b338c9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 293.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4b858725-d42c-4fa8-8e2c-3b2b7843f770",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 294.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b37657fc-ccf6-41f1-b9e7-7d502f89e13a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 294.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "c510ab74-2436-49a6-9f8c-10a23a933177",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 296.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "a485f618-3d31-4500-aa17-1c2981261c59",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 296.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "30aa41da-1205-4834-a2c4-ac96adb9a5f3",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 297.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4bac629e-619a-4970-9028-c8f9173a3cb9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 297.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "bb82cb53-a610-4f5d-9abc-edf6320a40d7",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 298.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "dc7dbd94-75b2-4543-89ac-348ee490f9f3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 299.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cf4db839-b6f1-4f2b-ad8b-e70f7f9a2366",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 300.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "53cd1258-f3ae-4069-9327-7e36e535f0be",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 300.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1acebe60-6e82-4097-bdb5-e0ea0f913da6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 301.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "519adc0b-6997-44f1-9f65-1c876f844554",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 301.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "39f182d9-495d-4856-b331-1af0ff03a8b8",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 303.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0d4f7114-7374-451c-89f9-84ca1ae7cc1b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 303.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "bfd80730-a16a-4449-92f6-c5fad4cb3d44",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 304.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0c63c024-6b1d-47c9-960c-4ff11ebf823b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 304.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "04823280-a1ff-403d-a026-3c56f390919e",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 305.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "72afe58d-1356-4432-b2be-fe1dd8405afa",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 306.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "d4f1db2f-1bd7-412f-9926-5125026b3a8c",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 307.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "60c44b87-47aa-42ea-8826-2600c0c44c17",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 307.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "456488eb-ef21-4827-a159-459ef765375b",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 308.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "cea49122-4038-4907-aa85-8eb749237381",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 308.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "cafd7c2c-b2dd-4a0b-8346-64dd77f93c90",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 310.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9286ece9-a482-4dbd-8e1f-3ac011d03745",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 310.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4cbab99b-1112-4f75-8d27-092d235c9dfa",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 311.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c4f6f602-aee3-48b0-bf58-dff5e45f78e4",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 311.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "b774ad28-e069-4553-b9d2-2c3ac241e652",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 312.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "3f461ad8-1a88-4432-bcce-e9c995f7558b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 313.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "267ca0b0-77b5-4edd-90b7-6dbf73136e15",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 314.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e9f947d8-dbed-4020-9c72-adb05a4da5c3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 314.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "2174d699-e538-4cf2-b33e-ee465106c4a2",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 315.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "105dbc47-874a-43c2-b634-ae9631eba120",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 315.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "88026ad6-c10f-46dc-801a-1fde408ace95",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 317.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "bd851d32-281b-49be-84f0-f17f7b2ce30c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 317.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "c01e0fde-87da-43bd-8ee2-73d76334b9fd",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 318.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ede04394-f05d-452c-89d4-32a91be661f6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 318.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "73733858-edf3-40a6-a9ac-be00dead8b93",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 319.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "39025445-4ee5-4e6e-8f0e-6e00c161e6ee",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 320.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "e698f8f4-ab7b-4fc8-afbc-ea9efb5b36f4",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 321.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "d102abfa-9d56-464e-8f06-8110580a2921",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 321.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "6c10b74c-905c-4bf6-8858-9b67bf57546b",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 322.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "bc273b8b-7b0a-44ef-99a6-f9ac8e550c29",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 322.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1147fa05-9154-4fb5-b362-5b85a2fc6dea",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 324.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "8ec3d7f0-9f9f-4e1c-9375-3bae51e4790a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 324.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "ef8c7605-e29d-46c9-8f46-299608077c34",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 325.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "1fe7f481-4cfa-4867-a457-1552aa270c49",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 325.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "aaef5865-852e-4e5c-9348-e007ac25fb34",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 326.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ee76a40a-2fe9-4685-84ec-c2c2ad01a1a4",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 327.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "0db5e422-6461-41c3-b448-cb7aab127308",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 328.3,
+        "trackId": "color",
+        "duration": 1.7
+      },
+      {
+        "id": "ea3ff6b7-3235-4df3-bba8-bc27e98b8265",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 328.5,
+        "trackId": "mode",
+        "duration": 1.5
+      },
+      {
+        "id": "025eddf4-ccda-44c2-b754-02405b20459d",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 330,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "7d9db9dd-c5ec-43d5-b1f1-696dd89feb84",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 330.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "f1846d6e-3d21-4567-810c-431b0ab49b2c",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 331.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "2069de36-abf9-4852-966c-6e452d9c8671",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 331.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "3115fbb1-98ce-4a90-b407-978473e8e54a",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 332.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4d50af3e-ac09-4b37-ae23-d0be4c2377ec",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 333,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "f3955816-f4fc-45c9-a8d4-0ad97bb089b5",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 334.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b385aa22-96e1-4dc6-9fbd-61ae9c1f3cfb",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 334.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "ad518c2f-6073-4db4-81e9-97556c8aead2",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 335.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "30213c0f-0102-477b-bb4d-4c77730d59ec",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 335.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "160a672c-2748-4ad1-93f5-831e9160a69a",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 337,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "e230b37f-9989-4868-ac07-51981e38e9dc",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 337.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4c9551f7-b3c1-4435-8f55-4a1a291b8e86",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 338.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "6934f08f-1be9-4709-888c-b90799cc9fb1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 338.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "c32ece09-2ca4-4f1f-8f4e-a0f9e225b823",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 339.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "575d949b-c14e-4e1f-942d-39cbca883d01",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 340,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "403f1507-ad15-403c-9510-42cee8983461",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 341.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9bc91e46-4ba4-407f-862b-d4ae98f15eb8",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 341.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "73f3bb75-9dbe-4059-9a5e-683f23a96c50",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 342.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "01538f60-bf3a-42d9-b15d-72ca7ce89786",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 342.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "8a48c3e1-5ae0-4fc9-b359-c1bf0110ac6a",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 344,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "1b149f5f-be7a-4a73-8889-e423eaccbad6",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 344.2,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "bbd298d7-d5ca-4f55-a01f-52aa1440965e",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 345.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "00c15322-06d8-4e59-89f7-d9a96c994ab9",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 345.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "9491514e-1814-4536-8130-ca0ff84b58b7",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 346.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "7ffec711-d0dc-4281-a4db-bd210926216f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 347,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "fbd5a1d3-cdf9-4353-8af2-40c3599b93f1",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 348.2,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "2dd6643f-88ed-43f6-9268-caccc9e06100",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 348.4,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1a951d8f-c3b7-4ad2-b6ec-b2c708ba7f69",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 349.6,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "1d510e4b-ca53-4236-ae54-471453f8956e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 349.8,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4e8bb440-474c-4188-a894-ab23226bf1aa",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 351,
+        "trackId": "color",
+        "duration": 1.9
+      },
+      {
+        "id": "495ee904-8d71-459f-9536-13b0973c6e8c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 351.2,
+        "trackId": "mode",
+        "duration": 1.7
+      },
+      {
+        "id": "3d898a77-0281-4377-96b3-3edd4272c4cf",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 352.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "ab4c28cc-a57a-41c0-99fa-251e166acefd",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 353.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "2d0e8b46-5b61-416a-b652-1009b81291fd",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 354.3,
+        "trackId": "color",
+        "duration": 2
+      },
+      {
+        "id": "907a61d0-101f-4e98-b423-5e4a0de16b9a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 354.5,
+        "trackId": "mode",
+        "duration": 1.8
+      },
+      {
+        "id": "004de905-a290-4114-9175-7b8d871e7f16",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 356.3,
+        "trackId": "color",
+        "duration": 1.8
+      },
+      {
+        "id": "9b7aa307-66d0-4f9b-a36d-24ce83523551",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 356.5,
+        "trackId": "mode",
+        "duration": 1.6
+      },
+      {
+        "id": "5a7129be-a03e-44ff-bb96-c2b9a2b6e75e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 358.1,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "b26a5d5b-6b37-4fd6-a521-0b60baa659bd",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 358.3,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "f2ede3f6-b2c1-4862-bfd6-e9e13f2a9d43",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 359.6,
+        "trackId": "color",
+        "duration": 0.6
+      },
+      {
+        "id": "ee7bcffc-7e61-4d3e-983f-037686635e5e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 359.8,
+        "trackId": "mode",
+        "duration": 0.4
+      },
+      {
+        "id": "f82ed2f7-fedd-4ed2-83bd-c816e284625a",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 360.2,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "e52444f5-376d-40f3-bd52-1154e57cb66c",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 360.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "9099b54c-a638-4567-b31b-35061504f4f6",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 360.9,
+        "trackId": "color",
+        "duration": 1.5
+      },
+      {
+        "id": "048a7b8f-37ea-4998-a4a0-fd58a4f998b3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 361.1,
+        "trackId": "mode",
+        "duration": 1.3
+      },
+      {
+        "id": "9f91b67f-8eaa-46bb-9c39-933c21d81d78",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 362.4,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "85e66af9-d025-45ae-9548-be3e9ccf8487",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 362.6,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "9b3df30e-0c90-4057-91a8-69069b64d3f8",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 363.8,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "93709d59-5626-4ac5-858f-9d7c421ba691",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 364,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "a68defbe-dbe1-4438-8331-2cdf5e0b6107",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 365.2,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "b80bfb43-4148-4af0-8f2d-f6c4434363b0",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 365.4,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "70bbf378-a20d-4048-9d93-7b37794d82cf",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 365.9,
+        "trackId": "color",
+        "duration": 0.7
+      },
+      {
+        "id": "acb78370-0165-4831-a545-05ea4d3c6240",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 366.1,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "e500ff4d-0237-47e2-adbc-8218d67a979e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 366.6,
+        "trackId": "color",
+        "duration": 0.8
+      },
+      {
+        "id": "cf688b6f-ad3a-44a2-9c3d-2b750663743e",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 366.9,
+        "trackId": "mode",
+        "duration": 0.5
+      },
+      {
+        "id": "ff165443-59a9-49e8-8b9e-5542de7c749b",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 367.4,
+        "trackId": "color",
+        "duration": 1.3
+      },
+      {
+        "id": "efc131e3-4649-4a68-9db7-7a479183f2eb",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 367.6,
+        "trackId": "mode",
+        "duration": 1.1
+      },
+      {
+        "id": "3510c86e-cd7e-4c12-8677-15a4cd6bae6d",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 368.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c21c5b3a-9d19-423c-abdf-8f41b949c083",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 368.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "67fc45ef-39c8-4908-8d0f-85dd71672009",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 370.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "232fd2f8-a2db-4d6e-9463-08643f9fc515",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 370.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "8a26d0b7-d862-4bf1-840f-5a42ee0b9704",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 371.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "eddc2bb9-96d9-4dd5-a53f-4f9391c99cd0",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 371.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "f36e4b61-6c94-43b9-8e88-9b696a198e2e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 372.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "d1ce4952-bef2-4b04-809f-7a0558d3703b",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 373.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "16c21e52-a943-438a-9ed1-1bbd72be1848",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 374.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "c4984e99-a1a2-4185-9221-a3a1bc9f34ae",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 374.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "0d795a4b-3c2b-4348-8bfb-907c0f85e52f",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 375.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "53ffcca7-4737-436b-8514-ab8addf9c3e4",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 375.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "89e3f18b-61ea-404a-b69d-e929d0a70465",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 377.1,
+        "trackId": "color",
+        "duration": 3
+      },
+      {
+        "id": "bd48948c-8a18-47a6-839a-147c1285e204",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 377.3,
+        "trackId": "mode",
+        "duration": 2.8
+      },
+      {
+        "id": "3f9c700b-0692-447c-b977-88a1556b0a31",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 380.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "20172c85-d5e2-489f-b6de-2bda815e2fb2",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 380.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "56789216-dce8-4660-9f80-dce5ca8ba194",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 381.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "0c9fdf12-e861-4a65-8adf-c3e690658235",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 381.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "01bb7324-822d-46dd-8ac5-f3a53d538110",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 382.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4cb87c22-21c3-42c4-baae-d866673cdc46",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 383.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "d093e49f-cf82-4878-97e8-b0526405503e",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 384.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9c32fabf-57d5-4358-9531-56a6497c5f48",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 384.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "4764e423-1249-4a8e-9252-e4f9674e2c37",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 385.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "4fcd7d90-5f58-486c-8cd0-055d6639752a",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 385.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "5cad8bbe-6ed1-42a1-bce6-83ff5b3b6c47",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 387.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "8f1eea3f-7961-4231-a25c-603839e65643",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 387.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "04df96da-4e28-4c4c-99c2-4effb4b561cf",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 388.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "b1e31043-5122-4e78-b0aa-d962aa03f71d",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 388.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "2b2ac8c1-4380-41b4-980c-f808f556d5e1",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 389.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "9b082710-83d4-46a1-8bca-b824da95198f",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 390.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "0c4014e5-a378-43cc-8e6d-73c5de1435d9",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 391.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "66651a33-8a0f-46d0-aaed-2247e8172d45",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 391.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "963a930c-3d36-427d-aee4-0caab53eaa47",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 392.7,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "1822119d-43bc-4a32-89d8-8674be24be66",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 392.9,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1eeffb25-44ba-4692-befe-b2e972c398dc",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 394.1,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "578db8c9-4199-4e12-b8e1-f7907da4d7e3",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 394.3,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "7a695e8c-5729-4a8d-b8f0-f0d932a5bb07",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 395.5,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "df6c8d45-2b03-4e51-8978-ac22843823c1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 395.7,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "33111468-f03c-49ff-b3cf-68ea4714eb23",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 396.9,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "fd47a919-b859-4f95-a02b-7de1939e20be",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 397.1,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "731b2d34-57f6-434a-9735-05d6f32fb68d",
+        "data": {
+          "color": "#a600ff"
+        },
+        "start": 398.3,
+        "trackId": "color",
+        "duration": 1.4
+      },
+      {
+        "id": "135a7a4b-92bf-4146-803f-777d5927d894",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 398.5,
+        "trackId": "mode",
+        "duration": 1.2
+      },
+      {
+        "id": "1c0a5998-3b4a-4be4-861c-7def4576254d",
+        "data": {
+          "color": "#8000ff"
+        },
+        "start": 399.7,
+        "trackId": "color",
+        "duration": 32.6
+      },
+      {
+        "id": "bdf172ea-d1cf-4024-b053-a35637d03bc1",
+        "data": {
+          "type": "fade",
+          "direction": "out"
+        },
+        "start": 399.9,
+        "trackId": "mode",
+        "duration": 2.5
+      },
+      {
+        "id": "207dc923-de98-4ee9-809c-57749d02ab31",
+        "data": {
+          "type": "fade"
+        },
+        "start": 429.2,
+        "trackId": "mode",
+        "duration": 3.1
+      }
+    ]
+  }
+}

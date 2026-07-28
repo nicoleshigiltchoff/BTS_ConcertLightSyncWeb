@@ -1,17 +1,201 @@
 {
   "audio": [
     {
+      "id": "2_0-audio",
+      "path": "audio/2_0.mp3",
+      "title": "2.0"
+    },
+    {
+      "id": "aliens-audio",
+      "path": "audio/aliens.mp3",
+      "title": "Aliens"
+    },
+    {
+      "id": "body_to_body-audio",
+      "path": "audio/body_to_body.mp3",
+      "title": "Body to Body"
+    },
+    {
+      "id": "butter-audio",
+      "path": "audio/butter.mp3",
+      "title": "Butter"
+    },
+    {
+      "id": "come_over-audio",
+      "path": "audio/come_over.mp3",
+      "title": "Come Over"
+    },
+    {
       "id": "dynamite-audio",
       "path": "audio/dynamite.mp3",
       "title": "Dynamite"
+    },
+    {
+      "id": "hooligan-audio",
+      "path": "audio/hooligan.mp3",
+      "title": "Hooligan"
+    },
+    {
+      "id": "idol-audio",
+      "path": "audio/idol.mp3",
+      "title": "Idol"
+    },
+    {
+      "id": "like_animals_fake_love-audio",
+      "path": "audio/like_animals_fake_love.mp3",
+      "title": "Like Animals Fake Love"
+    },
+    {
+      "id": "merry_go_round-audio",
+      "path": "audio/merry_go_round.mp3",
+      "title": "Merry Go Round"
+    },
+    {
+      "id": "mic_drop_fya_fire-audio",
+      "path": "audio/mic_drop_fya_fire.mp3",
+      "title": "Mic Drop Fya Fire"
+    },
+    {
+      "id": "normal-audio",
+      "path": "audio/normal.mp3",
+      "title": "Normal"
+    },
+    {
+      "id": "not_today-audio",
+      "path": "audio/not_today.mp3",
+      "title": "Not Today"
+    },
+    {
+      "id": "please-audio",
+      "path": "audio/please.mp3",
+      "title": "Please"
+    },
+    {
+      "id": "run_bts-audio",
+      "path": "audio/run_bts.mp3",
+      "title": "Run BTS"
+    },
+    {
+      "id": "swim-audio",
+      "path": "audio/swim.mp3",
+      "title": "Swim"
+    },
+    {
+      "id": "they_dont_know_about_us-audio",
+      "path": "audio/they_dont_know_about_us.mp3",
+      "title": "They Don't Know About Us"
     }
   ],
+
+
   "sequences": [
+    {
+      "id": "2_0-sequence",
+      "path": "sequences/2_0.json",
+      "title": "2.0",
+      "songKey": "2.0"
+    },
+    {
+      "id": "aliens-sequence",
+      "path": "sequences/aliens.json",
+      "title": "Aliens",
+      "songKey": "Aliens"
+    },
+    {
+      "id": "body_to_body-sequence",
+      "path": "sequences/body_to_body.json",
+      "title": "Body to Body",
+      "songKey": "Body to Body"
+    },
+    {
+      "id": "butter-sequence",
+      "path": "sequences/butter.json",
+      "title": "Butter",
+      "songKey": "Butter"
+    },
+    {
+      "id": "come_over-sequence",
+      "path": "sequences/come_over.json",
+      "title": "Come Over",
+      "songKey": "Come Over"
+    },
     {
       "id": "dynamite-sequence",
       "path": "sequences/dynamite.json",
       "title": "Dynamite",
       "songKey": "Dynamite"
+    },
+    {
+      "id": "hooligan-sequence",
+      "path": "sequences/hooligan.json",
+      "title": "Hooligan",
+      "songKey": "Hooligan"
+    },
+    {
+      "id": "idol-sequence",
+      "path": "sequences/idol.json",
+      "title": "Idol",
+      "songKey": "Idol"
+    },
+    {
+      "id": "into_the_sun-sequence",
+      "path": "sequences/into_the_sun.json",
+      "title": "Into the Sun",
+      "songKey": "Into the Sun"
+    },
+    {
+      "id": "like_animals_fake_love-sequence",
+      "path": "sequences/like_animals_fake_love.json",
+      "title": "Like Animals Fake Love",
+      "songKey": "Like Animals Fake Love"
+    },
+    {
+      "id": "merry_go_round-sequence",
+      "path": "sequences/merry_go_round.json",
+      "title": "Merry Go Round",
+      "songKey": "Merry Go Round"
+    },
+    {
+      "id": "mic_drop_fya_fire-sequence",
+      "path": "sequences/mic_drop_fya_fire.json",
+      "title": "Mic Drop Fya Fire",
+      "songKey": "Mic Drop Fya Fire"
+    },
+    {
+      "id": "normal-sequence",
+      "path": "sequences/normal.json",
+      "title": "Normal",
+      "songKey": "Normal"
+    },    
+    {
+      "id": "not_today-sequence",
+      "path": "sequences/not_today.json",
+      "title": "Not Today",
+      "songKey": "Not Today"
+    },
+    {
+      "id": "please-sequence",
+      "path": "sequences/please.json",
+      "title": "Please",
+      "songKey": "Please"
+    },
+    {
+      "id": "run_bts-sequence",
+      "path": "sequences/run_bts.json",
+      "title": "Run BTS",
+      "songKey": "Run BTS"
+    },
+    {
+      "id": "swim-sequence",
+      "path": "sequences/swim.json",
+      "title": "Swim",
+      "songKey": "Swim"
+    },
+    {
+      "id": "they_dont_know_about_us-sequence",
+      "path": "sequences/they_dont_know_about_us.json",
+      "title": "They Don't Know About Us",
+      "songKey": "They Don't Know About Us"
     }
   ]
 }
