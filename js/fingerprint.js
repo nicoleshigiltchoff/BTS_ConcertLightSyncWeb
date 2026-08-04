@@ -1,4 +1,4 @@
-import { AUDIO } from './config.js';
+import { AUDIO, FINGERPRINT_VERSION } from './config.js';
 
 export async function decodeAndFingerprint(file,onProgress=()=>{}){
   const ctx=new (window.AudioContext||window.webkitAudioContext)();
@@ -9,7 +9,7 @@ export async function decodeAndFingerprint(file,onProgress=()=>{}){
     const samples=resampleLinear(mono,decoded.sampleRate,AUDIO.targetSampleRate);
     onProgress('fingerprinting');
     const hashes=fingerprintSamples(samples,AUDIO.targetSampleRate);
-    return {duration:decoded.duration,hashes,sampleRate:AUDIO.targetSampleRate};
+    return {duration:decoded.duration,hashes,sampleRate:AUDIO.targetSampleRate,fingerprintVersion:FINGERPRINT_VERSION};
   } finally { await ctx.close().catch(()=>{}); }
 }
 
@@ -29,10 +29,24 @@ export function fingerprintSamples(samples,sampleRate=AUDIO.targetSampleRate){
     }
     candidates.sort((a,b)=>b[0]-a[0]);
     const selected=[];
-    for(const [,bin] of candidates){
-      if(selected.every(x=>Math.abs(x-bin)>=4)){selected.push(bin);if(selected.length>=AUDIO.peaksPerFrame)break;}
+    const bands=(AUDIO.peakBandsHz||[]).map(hz=>Math.max(minBin,Math.min(maxBin,Math.round(hz*AUDIO.fftSize/sampleRate))));
+    if(bands.length>=2){
+      for(let band=0;band<bands.length-1;band++){
+        let added=0;
+        for(const [,bin] of candidates){
+          if(bin<bands[band]||bin>=bands[band+1])continue;
+          if(selected.every(x=>Math.abs(x-bin)>=3)){
+            selected.push(bin);
+            if(++added>=(AUDIO.peaksPerBand||1))break;
+          }
+        }
+      }
     }
-    frames.push(selected.map(bin=>({bin,time:fi})));
+    for(const [,bin] of candidates){
+      if(selected.length>=AUDIO.peaksPerFrame)break;
+      if(selected.every(x=>Math.abs(x-bin)>=3))selected.push(bin);
+    }
+    frames.push(selected.slice(0,AUDIO.peaksPerFrame).map(bin=>({bin,time:fi})));
   }
   const hashes=[];
   for(let i=0;i<frames.length;i++) for(const anchor of frames[i]){

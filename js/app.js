@@ -5,6 +5,7 @@ import { ConstellationMatcher } from './matcher.js';
 import { MicrophoneRecognizer } from './recognizer.js';
 import { normalizeSequence,SequencePlayer } from './sequences.js';
 import { loadRepositoryAssets } from './repository-assets.js';
+import { FINGERPRINT_VERSION } from './config.js';
 
 const $=id=>document.getElementById(id),logEl=$('log');
 function log(msg){const line=`${new Date().toLocaleTimeString()}  ${msg}`;console.log(line);logEl.textContent=(line+'\n'+logEl.textContent).slice(0,18000);}
@@ -15,9 +16,10 @@ const lights=new LightstickManager(log);
 const player=new SequencePlayer((color,b)=>lights.sendColor(color,b));
 const recognizer=new MicrophoneRecognizer(matcher,readSettings,log);
 let activeSongId=null;
+let concertOrder=[];
 
-function readSettings(){return{windowSeconds:+$('windowSeconds').value,matchInterval:+$('matchInterval').value,minVotes:+$('minVotes').value,minRatio:+$('minRatio').value,globalOffset:+$('globalOffset').value};}
-function saveSettings(){settingsRecord.mappings=settingsRecord.mappings||{};put('settings',settingsRecord);}
+function readSettings(){return{windowSeconds:+$('windowSeconds').value,matchInterval:+$('matchInterval').value,minVotes:+$('minVotes').value,minRatio:+$('minRatio').value,globalOffset:+$('globalOffset').value,concertAwareness:$('concertAwareness').checked,concertIndex:+$('concertPosition').value||0,concertOrder,lookBehind:+$('lookBehind').value||0,lookAhead:+$('lookAhead').value||3};}
+function saveSettings(){settingsRecord.mappings=settingsRecord.mappings||{};settingsRecord.recognition={...readSettings(),concertOrder:undefined};put('settings',settingsRecord);}
 
 lights.addEventListener('change',renderDevices);
 player.addEventListener('cue',e=>{const {cue,time,index,sequence}=e.detail;$('lightPreview').style.background=cue.color;$('lightPreview').style.opacity=String(Math.max(.08,cue.brightness));$('lightPreview').style.boxShadow=`0 0 ${18+cue.brightness*35}px ${cue.color}`;$('cueLabel').textContent=`${sequence.title}: ${cue.label}`;$('cueDetail').textContent=`Cue ${index+1}/${sequence.cues.length} at ${time.toFixed(1)} s — ${cue.color}, ${Math.round(cue.brightness*100)}%`;});
@@ -39,17 +41,28 @@ $('loadExample').onclick=async()=>{const r=await fetch('examples/example-sequenc
 $('cacheOffline').onclick=cacheOffline;
 $('exportData').onclick=exportData;
 $('importData').onchange=e=>importBackup(e.target.files[0]);
-for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset'])$(id).onchange=saveSettings;
+for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset','concertAwareness','concertPosition','lookBehind','lookAhead'])$(id).onchange=saveSettings;
+$('resetConcertPosition').onclick=()=>{$('concertPosition').value='0';activeSongId=null;saveSettings();};
 
 async function indexFiles(files){
   if(!files.length)return;const box=$('indexProgress');box.classList.remove('hidden','error');
-  for(let i=0;i<files.length;i++)try{box.textContent=`Indexing ${i+1}/${files.length}: ${files[i].name}`;await new Promise(r=>setTimeout(r,50));const fp=await decodeAndFingerprint(files[i]);const song={id:crypto.randomUUID?.()||`${Date.now()}-${i}`,title:files[i].name.replace(/\.[^.]+$/,''),fileName:files[i].name,duration:fp.duration,hashes:fp.hashes,createdAt:new Date().toISOString()};await put('songs',song);log(`Indexed ${song.title}: ${song.hashes.length} hashes`);}catch(e){box.classList.add('error');box.textContent=`Failed on ${files[i].name}: ${e.message}`;log(box.textContent);}
-  songs=await getAll('songs');matcher.setSongs(songs);box.textContent=`Finished. ${songs.length} song(s) indexed locally.`;renderAll();
+  for(let i=0;i<files.length;i++)try{box.textContent=`Indexing ${i+1}/${files.length}: ${files[i].name}`;await new Promise(r=>setTimeout(r,50));const fp=await decodeAndFingerprint(files[i]);const song={id:crypto.randomUUID?.()||`${Date.now()}-${i}`,title:files[i].name.replace(/\.[^.]+$/,''),fileName:files[i].name,duration:fp.duration,hashes:fp.hashes,fingerprintVersion:fp.fingerprintVersion||FINGERPRINT_VERSION,createdAt:new Date().toISOString()};await put('songs',song);log(`Indexed ${song.title}: ${song.hashes.length} hashes`);}catch(e){box.classList.add('error');box.textContent=`Failed on ${files[i].name}: ${e.message}`;log(box.textContent);}
+  songs=await getAll('songs');matcher.setSongs(songs);if(!concertOrder.length)resolveConcertOrder(null);box.textContent=`Finished. ${songs.length} song(s) indexed locally.`;renderAll();
 }
 async function importSequences(files){for(const file of files)try{const seq=normalizeSequence(JSON.parse(await file.text()),file.name);await put('sequences',seq);log(`Imported sequence ${seq.title}: ${seq.cues.length} cues`);}catch(e){alert(`${file.name}: ${e.message}`);}sequences=await getAll('sequences');renderAll();}
 function handleMatch(m){
   const corrected=m.currentOffset+readSettings().globalOffset;
-  $('matchedSong').textContent=m.song.title;$('matchedOffset').textContent=corrected.toFixed(1)+' s';$('matchConfidence').textContent=`${m.votes} votes · ${m.ratio.toFixed(2)}×`;
+  $('matchedSong').textContent=m.song.title;$('matchedOffset').textContent=corrected.toFixed(1)+' s';$('matchConfidence').textContent=`${m.votes} aligned · ${m.ratio.toFixed(2)}×${m.prior&&m.prior!==1?' · setlist '+m.prior.toFixed(2)+'×':''}`;
+  const matchedConcertIndex=concertOrder.indexOf(m.song.id);
+  const currentConcertIndex=+$('concertPosition').value||0;
+  if(matchedConcertIndex>=0&&matchedConcertIndex!==currentConcertIndex){
+    // Move forward automatically. Allow one-step backward recovery, but do not
+    // jump far backward because a repeated/common passage can resemble an old song.
+    if(matchedConcertIndex>currentConcertIndex||currentConcertIndex-matchedConcertIndex<=1){
+      $('concertPosition').value=String(matchedConcertIndex);
+      saveSettings();
+    }
+  }
   const seqId=settingsRecord.mappings?.[m.song.id];const seq=sequences.find(s=>s.id===seqId);
   if(!seq){$('cueLabel').textContent='Song matched; no sequence mapped';return;}
   if(activeSongId!==m.song.id||player.sequence?.id!==seq.id){activeSongId=m.song.id;player.sync(seq,corrected);log(`Started ${seq.title} at ${corrected.toFixed(2)} s`);}else player.correct(corrected);
@@ -59,13 +72,47 @@ function renderSongs(){const list=$('songList');list.innerHTML=songs.length?'':'
 function renderSequences(){const list=$('sequenceList');list.innerHTML=sequences.length?'':'<p class="empty">No sequences imported.</p>';for(const s of sequences){const end=s.cues.at(-1)?.time||0,row=document.createElement('div');row.className='data-row';row.innerHTML=`<div class="data-info"><strong>${escapeHtml(s.title)}</strong><small>${s.cues.length} cues · ends at ${formatTime(end)} · offset ${s.offset||0}s</small></div><button class="danger">Delete</button>`;row.querySelector('button').onclick=async()=>{await remove('sequences',s.id);sequences=await getAll('sequences');renderAll();};list.append(row);}}
 function renderMappings(){const list=$('mappingList');list.innerHTML=(songs.length&&sequences.length)?'':'<p class="empty">Import at least one song and one sequence.</p>';if(!(songs.length&&sequences.length))return;for(const song of songs){const row=document.createElement('div');row.className='mapping-row';const label=document.createElement('strong');label.textContent=song.title;const select=document.createElement('select');select.innerHTML='<option value="">No sequence</option>'+sequences.map(s=>`<option value="${escapeAttr(s.id)}">${escapeHtml(s.title)}</option>`).join('');select.value=settingsRecord.mappings?.[song.id]||autoMatch(song)||'';if(!settingsRecord.mappings?.[song.id]&&select.value){settingsRecord.mappings[song.id]=select.value;saveSettings();}select.onchange=()=>{settingsRecord.mappings[song.id]=select.value;saveSettings();};row.append(label,select);list.append(row);}}
 function autoMatch(song){const key=normalizeName(song.title);return sequences.find(s=>normalizeName(s.songKey||s.title).includes(key)||key.includes(normalizeName(s.songKey||s.title)))?.id;}
-function renderAll(){renderDevices();renderSongs();renderSequences();renderMappings();}
+function renderAll(){renderDevices();renderSongs();renderSequences();renderMappings();renderConcertPosition();}
+
+function applySavedRecognitionSettings(){
+  const saved=settingsRecord.recognition||{};
+  for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset','lookBehind','lookAhead']){
+    if(saved[id]!==undefined&&$(id))$(id).value=String(saved[id]);
+  }
+  if(saved.concertAwareness!==undefined)$('concertAwareness').checked=Boolean(saved.concertAwareness);
+}
+function resolveConcertOrder(manifest){
+  const explicit=Array.isArray(manifest?.concertOrder)?manifest.concertOrder.map(String):[];
+  const valid=new Set(songs.map(song=>song.id));
+  const fromExplicit=explicit.filter(id=>valid.has(id));
+  const ordered=songs.filter(song=>Number.isFinite(song.concertOrder)).sort((a,b)=>a.concertOrder-b.concertOrder).map(song=>song.id);
+  const fallback=songs.map(song=>song.id);
+  concertOrder=[...new Set(fromExplicit.length?fromExplicit:ordered.length?ordered:fallback)];
+}
+function renderConcertPosition(){
+  const select=$('concertPosition');
+  const previous=select.dataset.ready==='1'?Number(select.value||0):Number(settingsRecord.recognition?.concertIndex||0);
+  select.innerHTML='';
+  concertOrder.forEach((id,index)=>{
+    const song=songs.find(item=>item.id===id);
+    if(!song)return;
+    const option=document.createElement('option');
+    option.value=String(index);
+    option.textContent=`${index+1}. ${song.title}`;
+    select.append(option);
+  });
+  if(!select.options.length){const option=document.createElement('option');option.value='0';option.textContent='No setlist loaded';select.append(option);}
+  select.value=String(Math.min(previous,Math.max(0,select.options.length-1)));
+  select.dataset.ready='1';
+}
+
 function showBtError(msg){const el=$('bluetoothWarning');el.textContent=msg;el.classList.remove('hidden');el.classList.add('error');}
 async function cacheOffline(){if(!('serviceWorker'in navigator)){alert('This browser does not expose service workers. Bluefy may still retain its own page cache, but test offline before the concert.');return;}const reg=await navigator.serviceWorker.register('./sw.js');await navigator.serviceWorker.ready;alert('App shell cached. Open it once online after every update, then test in airplane mode.');log(`Service worker ready: ${reg.scope}`);updateOfflineBadge();}
 async function exportData(){const blob=new Blob([JSON.stringify({version:1,songs,sequences,settings:settingsRecord},null,2)],{type:'application/json'});download(blob,'concert-lightstick-catalog.json');}
 async function importBackup(file){if(!file)return;const data=JSON.parse(await file.text());for(const s of data.songs||[])await put('songs',s);for(const s of data.sequences||[])await put('sequences',s);if(data.settings)await put('settings',data.settings);location.reload();}
 function updateOfflineBadge(){const b=$('offlineBadge');if(!navigator.onLine){b.textContent='Offline';b.classList.add('ok');}else if('serviceWorker'in navigator&&navigator.serviceWorker.controller){b.textContent='Offline-ready';b.classList.add('ok');}else b.textContent='Online';}
 window.addEventListener('online',updateOfflineBadge);window.addEventListener('offline',updateOfflineBadge);updateOfflineBadge();
+applySavedRecognitionSettings();
 if(!lights.supported())showBtError('Web Bluetooth is unavailable in this browser. On iPad, use Bluefy rather than Safari.');
 await loadBundledAssets();
 renderAll();
@@ -85,9 +132,12 @@ async function loadBundledAssets(){
       songs=await getAll('songs');
       sequences=await getAll('sequences');
       matcher.setSongs(songs);
+      resolveConcertOrder(result.manifest);
       box.textContent=`Loaded ${result.songs.length} bundled song(s) and ${result.sequences.length} bundled sequence(s).`;
       renderAll();
     }else if(result.manifest){
+      resolveConcertOrder(result.manifest);
+      renderConcertPosition();
       box.classList.add('hidden');
     }
   }catch(e){
