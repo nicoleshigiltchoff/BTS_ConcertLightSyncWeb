@@ -29,5 +29,5 @@ export const AUDIO = {
   peaksPerBand: 2
 };
 
-export const DB_NAME = 'concert-lightstick-sync-v3';
+export const DB_NAME = 'concert-lightstick-sync-v4';
 export const DB_VERSION = 1;

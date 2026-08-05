@@ -17,8 +17,22 @@ const player=new SequencePlayer((color,b)=>lights.sendColor(color,b));
 const recognizer=new MicrophoneRecognizer(matcher,readSettings,log);
 let activeSongId=null;
 let concertOrder=[];
+let concertIndex=Math.max(0,Number(settingsRecord.recognition?.concertIndex||0));
 
-function readSettings(){return{windowSeconds:+$('windowSeconds').value,matchInterval:+$('matchInterval').value,minVotes:+$('minVotes').value,minRatio:+$('minRatio').value,globalOffset:+$('globalOffset').value,concertAwareness:$('concertAwareness').checked,concertIndex:+$('concertPosition').value||0,concertOrder,lookBehind:+$('lookBehind').value||0,lookAhead:+$('lookAhead').value||3};}
+function readSettings(){
+  const currentId=concertOrder[concertIndex];
+  const nextId=concertOrder[concertIndex+1];
+  return{
+    windowSeconds:+$('windowSeconds').value,
+    matchInterval:+$('matchInterval').value,
+    minVotes:+$('minVotes').value,
+    minRatio:+$('minRatio').value,
+    globalOffset:+$('globalOffset').value,
+    concertIndex,
+    concertOrder,
+    allowedSongIds:[currentId,nextId].filter(Boolean)
+  };
+}
 function saveSettings(){settingsRecord.mappings=settingsRecord.mappings||{};settingsRecord.recognition={...readSettings(),concertOrder:undefined};put('settings',settingsRecord);}
 
 lights.addEventListener('change',renderDevices);
@@ -41,8 +55,7 @@ $('loadExample').onclick=async()=>{const r=await fetch('examples/example-sequenc
 $('cacheOffline').onclick=cacheOffline;
 $('exportData').onclick=exportData;
 $('importData').onchange=e=>importBackup(e.target.files[0]);
-for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset','concertAwareness','concertPosition','lookBehind','lookAhead'])$(id).onchange=saveSettings;
-$('resetConcertPosition').onclick=()=>{$('concertPosition').value='0';activeSongId=null;saveSettings();};
+for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset'])$(id).onchange=saveSettings;
 
 async function indexFiles(files){
   if(!files.length)return;const box=$('indexProgress');box.classList.remove('hidden','error');
@@ -54,14 +67,12 @@ function handleMatch(m){
   const corrected=m.currentOffset+readSettings().globalOffset;
   $('matchedSong').textContent=m.song.title;$('matchedOffset').textContent=corrected.toFixed(1)+' s';$('matchConfidence').textContent=`${m.votes} aligned · ${m.ratio.toFixed(2)}×${m.prior&&m.prior!==1?' · setlist '+m.prior.toFixed(2)+'×':''}`;
   const matchedConcertIndex=concertOrder.indexOf(m.song.id);
-  const currentConcertIndex=+$('concertPosition').value||0;
-  if(matchedConcertIndex>=0&&matchedConcertIndex!==currentConcertIndex){
-    // Move forward automatically. Allow one-step backward recovery, but do not
-    // jump far backward because a repeated/common passage can resemble an old song.
-    if(matchedConcertIndex>currentConcertIndex||currentConcertIndex-matchedConcertIndex<=1){
-      $('concertPosition').value=String(matchedConcertIndex);
-      saveSettings();
-    }
+  if(matchedConcertIndex===concertIndex+1){
+    setConcertPosition(matchedConcertIndex,{scroll:true,logChange:true,stopPlayback:false});
+  }else if(matchedConcertIndex!==concertIndex){
+    // Strict-order matching should already exclude every other song. Ignore any
+    // stale result generated immediately before a manual position change.
+    return;
   }
   const seqId=settingsRecord.mappings?.[m.song.id];const seq=sequences.find(s=>s.id===seqId);
   if(!seq){$('cueLabel').textContent='Song matched; no sequence mapped';return;}
@@ -72,14 +83,13 @@ function renderSongs(){const list=$('songList');list.innerHTML=songs.length?'':'
 function renderSequences(){const list=$('sequenceList');list.innerHTML=sequences.length?'':'<p class="empty">No sequences imported.</p>';for(const s of sequences){const end=s.cues.at(-1)?.time||0,row=document.createElement('div');row.className='data-row';row.innerHTML=`<div class="data-info"><strong>${escapeHtml(s.title)}</strong><small>${s.cues.length} cues · ends at ${formatTime(end)} · offset ${s.offset||0}s</small></div><button class="danger">Delete</button>`;row.querySelector('button').onclick=async()=>{await remove('sequences',s.id);sequences=await getAll('sequences');renderAll();};list.append(row);}}
 function renderMappings(){const list=$('mappingList');list.innerHTML=(songs.length&&sequences.length)?'':'<p class="empty">Import at least one song and one sequence.</p>';if(!(songs.length&&sequences.length))return;for(const song of songs){const row=document.createElement('div');row.className='mapping-row';const label=document.createElement('strong');label.textContent=song.title;const select=document.createElement('select');select.innerHTML='<option value="">No sequence</option>'+sequences.map(s=>`<option value="${escapeAttr(s.id)}">${escapeHtml(s.title)}</option>`).join('');select.value=settingsRecord.mappings?.[song.id]||autoMatch(song)||'';if(!settingsRecord.mappings?.[song.id]&&select.value){settingsRecord.mappings[song.id]=select.value;saveSettings();}select.onchange=()=>{settingsRecord.mappings[song.id]=select.value;saveSettings();};row.append(label,select);list.append(row);}}
 function autoMatch(song){const key=normalizeName(song.title);return sequences.find(s=>normalizeName(s.songKey||s.title).includes(key)||key.includes(normalizeName(s.songKey||s.title)))?.id;}
-function renderAll(){renderDevices();renderSongs();renderSequences();renderMappings();renderConcertPosition();}
+function renderAll(){renderDevices();renderSongs();renderSequences();renderMappings();renderSetlistTiles();}
 
 function applySavedRecognitionSettings(){
   const saved=settingsRecord.recognition||{};
-  for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset','lookBehind','lookAhead']){
+  for(const id of ['windowSeconds','matchInterval','minVotes','minRatio','globalOffset']){
     if(saved[id]!==undefined&&$(id))$(id).value=String(saved[id]);
   }
-  if(saved.concertAwareness!==undefined)$('concertAwareness').checked=Boolean(saved.concertAwareness);
 }
 function resolveConcertOrder(manifest){
   const explicit=Array.isArray(manifest?.concertOrder)?manifest.concertOrder.map(String):[];
@@ -88,22 +98,50 @@ function resolveConcertOrder(manifest){
   const ordered=songs.filter(song=>Number.isFinite(song.concertOrder)).sort((a,b)=>a.concertOrder-b.concertOrder).map(song=>song.id);
   const fallback=songs.map(song=>song.id);
   concertOrder=[...new Set(fromExplicit.length?fromExplicit:ordered.length?ordered:fallback)];
+  concertIndex=Math.max(0,Math.min(concertIndex,Math.max(0,concertOrder.length-1)));
 }
-function renderConcertPosition(){
-  const select=$('concertPosition');
-  const previous=select.dataset.ready==='1'?Number(select.value||0):Number(settingsRecord.recognition?.concertIndex||0);
-  select.innerHTML='';
+function setConcertPosition(index,{scroll=false,logChange=false,stopPlayback=true}={}){
+  if(!concertOrder.length)return;
+  concertIndex=Math.max(0,Math.min(Number(index)||0,concertOrder.length-1));
+  activeSongId=null;
+  if(stopPlayback)player.stop();
+  saveSettings();
+  renderSetlistTiles();
+  if(scroll){
+    requestAnimationFrame(()=>{
+      const tile=$('setlistTiles')?.querySelector(`[data-index="${concertIndex}"]`);
+      tile?.scrollIntoView({behavior:'smooth',block:'nearest'});
+    });
+  }
+  if(logChange){
+    const song=songs.find(item=>item.id===concertOrder[concertIndex]);
+    if(song)log(`Current concert song changed to ${concertIndex+1}. ${song.title}`);
+  }
+}
+function renderSetlistTiles(){
+  const list=$('setlistTiles');
+  if(!list)return;
+  concertIndex=Math.max(0,Math.min(concertIndex,Math.max(0,concertOrder.length-1)));
+  const currentSong=songs.find(item=>item.id===concertOrder[concertIndex]);
+  const previousSong=concertIndex>0?songs.find(item=>item.id===concertOrder[concertIndex-1]):null;
+  const nextSong=concertIndex<concertOrder.length-1?songs.find(item=>item.id===concertOrder[concertIndex+1]):null;
+  $('setlistCurrentLabel').textContent=currentSong?`${concertIndex+1}. ${currentSong.title}`:'No setlist loaded';
+  $('previousSongLabel').textContent=previousSong?.title||'—';
+  $('nextSongLabel').textContent=nextSong?.title||'—';
+  list.innerHTML='';
+  if(!concertOrder.length){list.innerHTML='<p class="empty">Add concertOrder to assets-manifest.json.</p>';return;}
   concertOrder.forEach((id,index)=>{
     const song=songs.find(item=>item.id===id);
     if(!song)return;
-    const option=document.createElement('option');
-    option.value=String(index);
-    option.textContent=`${index+1}. ${song.title}`;
-    select.append(option);
+    const button=document.createElement('button');
+    button.type='button';
+    button.className=`setlist-song-button primary${index===concertIndex?' current':''}`;
+    button.dataset.index=String(index);
+    button.setAttribute('aria-pressed',index===concertIndex?'true':'false');
+    button.innerHTML=`<span>${index+1}</span><strong>${escapeHtml(song.title)}</strong>`;
+    button.onclick=()=>setConcertPosition(index,{scroll:true,logChange:true});
+    list.append(button);
   });
-  if(!select.options.length){const option=document.createElement('option');option.value='0';option.textContent='No setlist loaded';select.append(option);}
-  select.value=String(Math.min(previous,Math.max(0,select.options.length-1)));
-  select.dataset.ready='1';
 }
 
 function showBtError(msg){const el=$('bluetoothWarning');el.textContent=msg;el.classList.remove('hidden');el.classList.add('error');}
@@ -137,7 +175,7 @@ async function loadBundledAssets(){
       renderAll();
     }else if(result.manifest){
       resolveConcertOrder(result.manifest);
-      renderConcertPosition();
+      renderSetlistTiles();
       box.classList.add('hidden');
     }
   }catch(e){

@@ -55,9 +55,26 @@
       </div>
     </section>
 
+    <section class="card setlist-card">
+      <div class="section-heading">
+        <div>
+          <h2>2. Select current concert song</h2>
+          <p>Tap a song to make it current. Recognition will then consider only that song for position updates and the immediately following song for automatic advancement.</p>
+        </div>
+      </div>
+      <div class="setlist-summary">
+        <div><span>Previous</span><strong id="previousSongLabel">—</strong></div>
+        <div><span>Current</span><strong id="setlistCurrentLabel">No setlist loaded</strong></div>
+        <div><span>Next</span><strong id="nextSongLabel">—</strong></div>
+      </div>
+      <div id="setlistTiles" class="setlist-buttons">
+        <p class="empty">Add concertOrder to assets-manifest.json.</p>
+      </div>
+    </section>
+
     <section class="card">
       <div class="section-heading">
-        <div><h2>2. Import and index concert audio</h2><p>Audio listed in assets-manifest.json is loaded automatically from the repository. You can also select MP3, M4A, WAV, or AAC files manually. Fingerprints are saved locally; full audio is not retained.</p></div>
+        <div><h2>3. Import and index concert audio</h2><p>Audio listed in assets-manifest.json is loaded automatically from the repository. You can also select MP3, M4A, WAV, or AAC files manually. Fingerprints are saved locally; full audio is not retained.</p></div>
         <label class="file-button">Choose audio files<input id="audioFiles" type="file" accept="audio/*,.mp3,.m4a,.wav,.aac" multiple></label>
       </div>
       <div id="indexProgress" class="notice hidden"></div>
@@ -67,7 +84,7 @@
 
     <section class="card">
       <div class="section-heading">
-        <div><h2>3. Import lighting sequences</h2><p>Sequences listed in assets-manifest.json are imported automatically. You can also import Bora-style JSON or the included canonical format manually.</p></div>
+        <div><h2>4. Import lighting sequences</h2><p>Sequences listed in assets-manifest.json are imported automatically. You can also import Bora-style JSON or the included canonical format manually.</p></div>
         <label class="file-button">Choose sequence files<input id="sequenceFiles" type="file" accept="application/json,.json" multiple></label>
       </div>
       <div id="sequenceList" class="data-list"><p class="empty">No sequences imported.</p></div>
@@ -78,7 +95,7 @@
     </section>
 
     <section class="card">
-      <h2>4. Song-to-sequence mapping</h2>
+      <h2>5. Song-to-sequence mapping</h2>
       <p>Choose which sequence should run when each fingerprinted song is recognized.</p>
       <div id="mappingList" class="mapping-list"><p class="empty">Import at least one song and one sequence.</p></div>
     </section>
@@ -91,13 +108,8 @@
         <label>Minimum aligned hashes<input id="minVotes" type="number" min="5" max="100" value="14"></label>
         <label>Minimum score ratio<input id="minRatio" type="number" min="1" max="5" step="0.05" value="1.25"></label>
         <label>Sequence offset correction (seconds)<input id="globalOffset" type="number" min="-10" max="10" step="0.05" value="0"></label>
-        <label class="check-setting"><span>Concert-order awareness</span><input id="concertAwareness" type="checkbox" checked></label>
-        <label>Current / expected song<select id="concertPosition"><option value="0">First setlist song</option></select></label>
-        <label>Previous songs considered<input id="lookBehind" type="number" min="0" max="5" step="1" value="1"></label>
-        <label>Upcoming songs favored<input id="lookAhead" type="number" min="1" max="10" step="1" value="3"></label>
       </div>
       <div class="button-row">
-        <button id="resetConcertPosition">Reset setlist position</button>
         <button id="cacheOffline">Cache app for offline use</button>
         <button id="exportData">Export local catalog</button>
         <label class="file-button">Import catalog backup<input id="importData" type="file" accept="application/json,.json"></label>
