@@ -1,20 +1,37 @@
 # Sequence folder
 
-This folder is intentionally empty. Sequence JSON files can be imported from the app and are stored in IndexedDB.
-
 Canonical schema:
 
 ```json
 {
-  "id": "unique-id",
-  "title": "Song title",
-  "songKey": "audio filename or song title",
-  "offset": 0,
-  "commands": [
-    {"time": 0.0, "color": "#000000", "brightness": 0, "effect": "Blackout"},
-    {"time": 1.2, "color": "#7C3AED", "brightness": 1, "effect": "Solid"}
-  ]
+  "format": "bora-waves-sequence",
+  "formatVersion": 1,
+  "timeUnit": "seconds",
+  "sequence": {
+    "id": "562def2d-1309-483f-8375-8819d1fce815",
+    "user_id": "cb26345f-b1b4-44da-96a4-d7f324cbd0f7",
+    "title": "Please (Arirang World Tour)",
+    "description": null,
+    "video_id": "3N1k6ir55-Y",
+    "is_public": true,
+    "is_bts": true,
+    "album": "Arirang",
+    "like_count": 0,
+    "created_at": "2026-06-27T03:20:30.343043+00:00",
+    "profiles": {
+      "username": "3r1kd4n",
+      "avatar_url": null
+    },
+    "clips": [
+      {
+        "id": "0a67f4d6-3d1b-4f77-bd26-992a2cc0616f",
+        "data": {
+          "color": "#4200ff"
+        },
+        "start": 0,
+        "trackId": "color",
+        "duration": 0.1
+      }
+    ]
+  }
 }
-```
-
-The importer also accepts arrays named `cues`, `events`, `timeline`, or `sequenceData`; time keys `timestamp`, `at`, `startTime`, `timeMs`, or `timestampMs`; and color keys `hexColor`, `hex`, or RGB arrays/objects.
