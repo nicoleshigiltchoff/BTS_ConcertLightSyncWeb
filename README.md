@@ -83,6 +83,7 @@ This is the same broad family of technique popularized by Shazam, but it is a co
 ## Files
 
 ```text
+assets-manifest.json
 index.html
 manifest.webmanifest
 sw.js
@@ -94,10 +95,12 @@ js/db.js
 js/fingerprint.js
 js/matcher.js
 js/recognizer.js
+js/repository-assets.js
 js/sequences.js
 audio/.gitkeep
-audio/README.md
+audio/<audio files>
 sequences/.gitkeep
+sequences/<sequence files>
 sequences/README.md
 examples/example-sequence.json
 README.md
