@@ -41,24 +41,10 @@
       </div>
     </section>
 
-    <section class="card">
-      <div class="section-heading">
-        <div><h2>1. Pair lightsticks</h2><p>SE and V3 use the same service and color packet found in the supplied Bora Waves chunks.</p></div>
-        <button id="pairButton" class="primary">Pair another lightstick</button>
-      </div>
-      <div id="bluetoothWarning" class="notice hidden"></div>
-      <div id="deviceList" class="device-list"><p class="empty">No lightsticks paired.</p></div>
-      <div class="manual-controls">
-        <label>Test color <input id="testColor" type="color" value="#7c3aed"></label>
-        <label>Brightness <input id="testBrightness" type="range" min="0" max="100" value="100"><span id="brightnessValue">100%</span></label>
-        <button id="sendTest">Send test</button>
-      </div>
-    </section>
-
     <section class="card setlist-card">
       <div class="section-heading">
         <div>
-          <h2>2. Select current concert song</h2>
+          <h2>1. Select current concert song</h2>
           <p>Tap a song to make it current. Recognition will then consider only that song for position updates and the immediately following song for automatic advancement.</p>
         </div>
       </div>
@@ -69,6 +55,20 @@
       </div>
       <div id="setlistTiles" class="setlist-buttons">
         <p class="empty">Add concertOrder to assets-manifest.json.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-heading">
+        <div><h2>2. Pair lightsticks</h2><p>SE and V3 use the same service and color packet found in the supplied Bora Waves chunks.</p></div>
+        <button id="pairButton" class="primary">Pair another lightstick</button>
+      </div>
+      <div id="bluetoothWarning" class="notice hidden"></div>
+      <div id="deviceList" class="device-list"><p class="empty">No lightsticks paired.</p></div>
+      <div class="manual-controls">
+        <label>Test color <input id="testColor" type="color" value="#7c3aed"></label>
+        <label>Brightness <input id="testBrightness" type="range" min="0" max="100" value="100"><span id="brightnessValue">100%</span></label>
+        <button id="sendTest">Send test</button>
       </div>
     </section>
 
